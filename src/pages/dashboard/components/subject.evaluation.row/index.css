@@ -1,0 +1,7 @@
+.textRow:last-child {
+	font-weight: bold;
+}
+
+.scholar.ui.table tr.detail-row td {
+	padding: 0.1rem;
+}

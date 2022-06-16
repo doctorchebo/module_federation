@@ -1,0 +1,10 @@
+{
+	"role": "Scholar",
+	"programs": "Programs",
+	"duration": "Duration",
+	"start": "By Recruitment",
+	"now": "Until Now",
+	"errorTitle":"Something Unexpected Happened.",
+	"errorMessage":"Error on Loading Scholar Info",
+	"emptyProgramDuration":"No time period to show."
+}

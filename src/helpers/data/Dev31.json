@@ -1,0 +1,109 @@
+{
+	"version": "DEV31",
+	"program": "DEV",
+	"startDate": "2020-11-09T00:00:00.000Z",
+	"endDate": "2021-06-04T00:00:00.000Z",
+	"coordinator": "Alejandro.Ruiz@fundacion-jala.org",
+	"stages": [
+		{
+			"order": 1,
+			"name": "Diagnosis",
+			"startDate": "2021-04-05T07:27:04.947Z",
+			"endDate": "2021-04-05T07:27:04.947Z",
+			"approvalRequired": true,
+			"subjects": [
+				{
+					"number": 1,
+					"name": "Monitoring",
+					"trainer": "sider.huanca@fundacion-jala.org"
+				}
+			]
+		},
+		{
+			"order": 2,
+			"name": "Backend",
+			"startDate": "2020-11-09T00:00:00.000Z",
+			"endDate": "2020-12-11T00:00:00.000Z",
+			"approvalRequired": true,
+			"subjects": [
+				{
+					"number": 1,
+					"name": "C#",
+					"trainer": "fabricio.campero@fundacion-jala.org"
+				},
+				{
+					"number": 2,
+					"name": "Monitoring",
+					"trainer": "sider.huanca@fundacion-jala.org"
+				}
+			]
+		},
+		{
+			"order": 3,
+			"name": "Frontend",
+			"startDate": "2020-12-14T00:00:00.000Z",
+			"endDate": "2021-01-15T00:00:00.000Z",
+			"approvalRequired": false,
+			"subjects": [
+				{
+					"number": 1,
+					"name": "React",
+					"trainer": "Osmar.Ugarte@fundacion-jala.org"
+				},
+				{
+					"number": 2,
+					"name": "Monitoring",
+					"trainer": "sider.huanca@fundacion-jala.org"
+				}
+			]
+		},
+		{
+			"order": 4,
+			"name": "Full Stack",
+			"startDate": "2021-01-18T00:00:00.000Z",
+			"endDate": "2021-03-05T00:00:00.000Z",
+			"approvalRequired": true,
+			"subjects": [
+				{
+					"number": 1,
+					"name": "C#",
+					"trainer": "fabricio.campero@fundacion-jala.org"
+				},
+				{
+					"number": 2,
+					"name": "React",
+					"trainer": "Osmar.Ugarte@fundacion-jala.org"
+				},
+				{
+					"number": 3,
+					"name": "Monitoring",
+					"trainer": "sider.huanca@fundacion-jala.org"
+				}
+			]
+		},
+		{
+			"order": 5,
+			"name": "Team Project",
+			"startDate": "2021-03-08T00:00:00.000Z",
+			"endDate": "2021-06-04T00:00:00.000Z",
+			"approvalRequired": true,
+			"subjects": [
+				{
+					"number": 1,
+					"name": "C#",
+					"trainer": "fabricio.campero@fundacion-jala.org"
+				},
+				{
+					"number": 2,
+					"name": "React",
+					"trainer": "Osmar.Ugarte@fundacion-jala.org"
+				},
+				{
+					"number": 3,
+					"name": "Monitoring",
+					"trainer": "sider.huanca@fundacion-jala.org"
+				}
+			]
+		}
+	]
+}

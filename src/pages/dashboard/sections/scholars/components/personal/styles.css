@@ -1,0 +1,45 @@
+.container-personal {
+	height: auto;
+	padding: 1rem;
+}
+
+.container-personal__header {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	gap: 25vw;
+}
+
+.container-personal__name {
+	color: var(--text-table-color);
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.container-personal__main {
+	display: flex;
+	align-items: flex-start;
+}
+
+.container-personal__first {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+}
+
+.container-personal__following {
+	display: flex;
+	flex-direction: column;
+	margin-left: 4rem;
+	align-self: flex-start;
+}
+
+.personal-icon {
+	color: var(--primary-color);
+}
+
+.title {
+	color: var(--primary-color);
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}

@@ -1,0 +1,13 @@
+.message-green {
+	color: green;
+}
+.message-yellow {
+	color: yellow;
+}
+.message-red {
+	color: red;
+}
+.extra {
+	margin-left: 1.4rem;
+	font-size: 10px;
+}

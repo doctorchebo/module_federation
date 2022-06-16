@@ -1,0 +1,178 @@
+{
+    "title": "Scholars",
+    "errorMessages": [
+        "The server responded with an unexpected status."
+    ],
+    "scholars": [
+        {
+            "id": "11221111-1d83-44d5-b264-1e17feabd322",
+            "person": {
+                "fullName": "Marcos Armendia Galardon"
+            },
+            "averageGrade":"C",
+            "notes":[
+                {
+                    "name": "C#",
+                    "grade": "A",
+                    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor diam odio, sed vestibulum est convallis eget. Sed tortor ante, convallis et sem aliquet, ullamcorper interdum velit. Praesent porttitor dolor ac tellus ultricies, nec scelerisque tellus sollicitudin. Cras ut"
+                },
+                {
+                    "name": "React",
+                    "grade": "B",
+                    "comment": "Quisque lacinia enim vulputate, condimentum libero quis, blandit arcu. Quisque auctor mi quis vestibulum facilisis. Ut condimentum"
+                },
+                {
+                    "name": "Asp",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "Coordinator",
+                    "grade": "A",
+                    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscingtibulum est convallis eget. Sed tortor ante, convallis et sem aliquet, ullamcorper interdum velit. Praesent porttitor dolor ac tellus ultricies, nec scelerisque tellus sollicitudin. Cras ut"
+                }
+            ]
+        },
+        {
+            "id": "11221118-1d83-44d5-b264-1e17feabd322",
+            "person": {
+                "fullName": "Sofia Perez"
+            },
+            "averageGrade":"A",
+            "notes":[
+                {
+                    "name": "Monitoring",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor diam odio, sed vestibulum est convallis eget. Sed tortor ante, convallis et sem aliquet, ullamcorper interdum velit. Praesent porttitor dolor ac tellus ultricies, nec scelerisque tellus sollicitudin. Cras ut"
+                },
+                {
+                    "name": "Coordinator",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "Asp",
+                    "grade": "D+",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "React",
+                    "grade": "D",
+                    "comment": "Lorem ipsum dolor sit amet"
+                }
+            ]
+        },
+        {
+            "id": "11111119-1d83-44d5-b264-1e17feabd322",
+            "person": {
+                "fullName": "Jorge Delgadillo Mamani"
+            },
+            "averageGrade":"C-",
+            "notes":[
+                {
+                    "name": "Monitoring",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor a Cras ut"
+                },
+                {
+                    "name": "Coordinator",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "Asp",
+                    "grade": "D+",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "React",
+                    "grade": "D",
+                    "comment": "Lorem ipsum dolor sit amet"
+                }
+            ]
+        },
+        {
+            "id": "11111120-1d83-44d5-b264-1e17feabd322",
+            "person": {
+                "fullName": "Cristhian Ortiz Quispe"
+            },
+            "averageGrade":"D-",
+            "notes":[
+                {
+                    "name": "Monitoring",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor a Cras ut"
+                },
+                {
+                    "name": "Coordinator",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "Asp",
+                    "grade": "D+",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "React",
+                    "grade": "D",
+                    "comment": "Lorem ipsum dolor sit amet"
+                }
+            ]
+        },
+        {
+            "id": "11111121-1d83-44d5-b264-1e17feabd322",
+            "person": {
+                "fullName": "Maurcio Escocbar Smith"
+            },
+            "averageGrade":"C",
+            "notes":[
+                {
+                    "name": "Monitoring",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor a Cras ut"
+                },
+                {
+                    "name": "Coordinator",
+                    "grade": "C",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "Asp",
+                    "grade": "D+",
+                    "comment": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "name": "React",
+                    "grade": "D",
+                    "comment": "Lorem ipsum dolor sit amet"
+                }
+            ]
+        }
+    ],
+    "stages":[],
+    "data": {},
+    "reports": {
+        "message": "Success",
+        "error": null,
+        "data": [],
+        "success": true
+    },
+    "fileTypes": ".csv .xlsx",
+    "pagination": {
+        "currentPage": 1,
+        "totalPages": 1,
+        "pageSize": 5,
+        "totalCount": 5,
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "nextPageNumber": null,
+        "previousPageNumber": null
+    },
+    "loading": false,
+    "rightSideBar": false,
+    "rightSideBarProgram": false,
+    "selectedScholar": {},
+    "showEventForm": false,
+    "showChangeStatusForm": false
+}

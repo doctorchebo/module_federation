@@ -1,0 +1,28 @@
+.wrapper-breadcrumbs {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 0 0 0 2.5rem;
+}
+
+.wrapper-breadcrumbs__icons {
+	width: 35px;
+}
+
+i.large.icon,
+i.large.icons {
+	color: var(--text-gray-light) !important;
+}
+
+.ui.breadcrumb a.section {
+	color: var(--text-gray-light) !important;
+}
+
+.ui.breadcrumb .divider {
+	color: var(--text-gray-light) !important;
+	margin: 0 0.7rem !important;
+}
+
+.ui.breadcrumb .active.section {
+	color: var(--text-gray-light) !important;
+}

@@ -1,0 +1,77 @@
+{
+    "header": {
+        "appName": "Applicants Tracker",
+        "subtitle": "An app for applicants in the Software Industry."
+    },
+    "programs": {
+        "title": "FORMATION PROGRAMS",
+        "content": [
+            {
+                "img": "https://i.ibb.co/FwW1fJJ/New-Project-22.png",
+                "text": "Automation Testing"
+            },
+            {
+                "img": "https://i.ibb.co/JBsdz2r/New-Project-21.png",
+                "text": "Software Developer"
+            },
+            {
+                "img": "https://i.ibb.co/PMR3f13/New-Project-24.png",
+                "text": "Manual Testing"
+            }
+        ]
+    },
+	"dataSections": {
+		"firstSection": {
+			"id": 1,
+			"isInverted": false,
+			"image": {
+				"size": "large",
+				"value": "https://i.ibb.co/LvgpD6M/New-Project-6-1.png"
+			},
+			"content": [
+				{
+					"id": 1,
+					"header": {
+						"color": "blue",
+						"value": "Testing Services"
+					},
+					"body": "Achieve the best results, no matter where you are in the testing cycle, from design to automation."
+				},
+				{
+					"id": 2,
+					"header": {
+						"color": "teal",
+						"value": "Automation"
+					},
+					"body": "Your software reaches its full potential thanks to testing. Prepare for success by employing the best possible quality assurance tests. Avoid software problems like bugs, slow loading sites, and insecure transactional systems."
+				}
+			]
+		},
+		"secondSection": {
+			"id": 2,
+			"isInverted": true,
+			"image": {
+				"size": "large",
+				"value": "https://i.ibb.co/m0qgPts/New-Project-9.png"
+			},
+			"content": [
+				{
+					"id": 3,
+					"header": {
+						"color": "blue",
+						"value": "Devops"
+					},
+					"body": "The synergy between development and operations, combined with best practices and process automation"
+				},
+				{
+					"id": 4,
+					"header": {
+						"color": "teal",
+						"value": "Development"
+					},
+					"body": "As application and software development moves from delivery based in projects to the continuous evolution of creation and development, it has become companies increasingly need to find ways to streamline business Information technologies."
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "7345A111-FD04-45E6-DD2D-08D993FFADAC",
+    "name": "Dev34",
+    "startDate": "2021-10-09T00:00:00.000Z",
+    "endDate": "2021-12-04T00:00:00.000Z",
+    "coordinator": {
+      "id": "cac9b2e5-9a8a-4e7d-8e4e-5f789b0de4af",
+      "firstName": "Dan",
+      "lastName": "Copa",
+      "email": "dan.copa@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Completed"
+  },
+  {
+    "id": "5312E5E3-B032-449F-8566-911F9FA4AB8C",
+    "name": "Dev29",
+    "startDate": "2021-1-15T00:00:00.0000000Z",
+    "endDate": "2021-10-29T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Completed"
+  },
+  {
+    "id": "4fffc534-1d83-13d5-b264-1e17f2abd322",
+    "name": "Dev30",
+    "startDate": "2020-01-15T00:00:00.0000000Z",
+    "endDate": "2020-09-15T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Completed"
+  },
+  {
+    "id": "67dc7174-e25f-4702-b2cd-4cddb7b06fb6",
+    "name": "DEV31",
+    "startDate": "2021-10-1T00:00:00.0000000Z",
+    "endDate": "2021-10-29T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Completed"
+  },
+  {
+    "id": "2a239587-51ef-4cd4-8c29-e3b83e81b920",
+    "name": "Dev32",
+    "startDate": "2022-01-15T00:00:00.0000000Z",
+    "endDate": "2022-09-15T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "InProgress"
+  },
+  {
+    "id": "86f37950-ed0f-4082-8c75-4245f3308b77",
+    "name": "Dev33",
+    "startDate": "2023-01-15T00:00:00.0000000Z",
+    "endDate": "2023-09-15T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Pending"
+  },
+  {
+    "id": "b0df0773-4528-414c-9f82-e8c902231bc9",
+    "name": "Research29",
+    "startDate": "2019-01-15T00:00:00.0000000Z",
+    "endDate": "2019-09-15T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Completed"
+  },
+  {
+    "id": "2ce69f92-1d83-23d5-b264-1e17f2abd322",
+    "name": "Research30",
+    "startDate": "2020-01-15T00:00:00.0000000Z",
+    "endDate": "2020-09-15T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Completed"
+  },
+  {
+    "id": "0860f3fc-4863-4868-ba58-0bd0d282115b",
+    "name": "Research31",
+    "startDate": "2021-01-15T00:00:00.0000000Z",
+    "endDate": "2021-09-15T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "Completed"
+  },
+  {
+    "id": "f47c014a-7618-4569-b427-dc6bd60d487f",
+    "name": "Research32",
+    "startDate": "2022-01-15T00:00:00.0000000Z",
+    "endDate": "2022-09-15T00:00:00.0000000Z",
+    "coordinator": {
+      "id": "3fffc534-1d83-44d5-b264-1e17feabd322",
+      "firstName": "Alejandro",
+      "lastName": "Ruiz",
+      "email": "alejandro.ruiz@fundacion-jala.org",
+      "currentCity": null,
+      "phoneNumber": null,
+      "ci": "0",
+      "roles": [
+        {
+          "id": "2e29afd4-a41a-43a7-9f30-df4df4f3dce3",
+          "name": null
+        }
+      ]
+    },
+    "status": "InProgress"
+  }
+]

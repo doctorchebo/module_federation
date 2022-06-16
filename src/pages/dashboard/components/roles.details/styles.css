@@ -1,0 +1,20 @@
+.roles.details .list-desc {
+	font-size: small;
+}
+
+.roles.details .users {
+	padding-top: 2rem;
+}
+
+.roles.details .users .label {
+	opacity: 0.5;
+}
+
+.roles.details .users .number {
+	padding-left: 1rem;
+	font-weight: bold;
+}
+
+.roles.details .permissions-label {
+	padding-bottom: 1rem;
+}

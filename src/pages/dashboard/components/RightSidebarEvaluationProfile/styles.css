@@ -1,0 +1,13 @@
+.wrapper-evaluations {
+	padding: 0.5rem;
+}
+
+.evaluation-main {
+	margin: 0 !important;
+	border: none !important;
+	padding: 8px;
+	width: 100%;
+	box-shadow: none;
+	border-radius: 0;
+	background: none;
+}

@@ -1,0 +1,17 @@
+{
+    "title": "User profile",
+    "subtitle": "Personal information:",
+    "imageUser": "https://react.semantic-ui.com/images/avatar/large/matthew.png",
+    "firstName": "First name:",
+    "lastName": "Last name:",
+    "email": "Email:",
+    "role": "Role:",
+    "imageLoaded": "Image loaded",
+    "formatError": "Format Not Supported",
+    "fileTypes": ".jpg .jpeg .png",
+    "loading": "Loading",
+
+    "header": "Change Image Profile",
+    "cancel": "Cancel",
+    "save": "Save"
+}

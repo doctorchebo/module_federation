@@ -1,0 +1,4 @@
+.required-dot {
+	color: var(--error-color);
+	margin-left: 2px;
+}

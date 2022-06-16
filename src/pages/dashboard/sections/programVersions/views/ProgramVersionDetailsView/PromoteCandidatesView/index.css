@@ -1,0 +1,33 @@
+.root {
+	overflow-y: 'auto';
+	background-position: 'center';
+	width: 100%;
+	display: block;
+	padding: 0 0.5rem 0.2rem 0.5rem;
+	background-color: var(--bg-first-color);
+}
+
+#buttons-promotion-mode {
+	margin: 1.2rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#buttons-promotion-mode button:nth-child(odd) {
+	border-radius: 0;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+#buttons-promotion-mode button:nth-child(even) {
+	background-color: var(--primary-color);
+	color: white;
+	border-radius: 0;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.board-columns.ui.grid {
+	margin-top: 10px;
+}

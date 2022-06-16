@@ -1,0 +1,23 @@
+.update-scholar-form .button-group {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	margin-top: 75px;
+}
+
+.update-scholar-form .button-group .button {
+	border-radius: 0;
+}
+
+.update-scholar-form .button-group .button:last-child {
+	background-color: var(--primary-color);
+}
+
+.update-scholar-form .button-group .button:last-child:hover {
+	background-color: var(--primary-color);
+}
+
+.id-field {
+	display: none;
+}

@@ -1,0 +1,66 @@
+.question-item {
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+}
+
+.question-item .sub.header {
+	display: flex;
+	align-items: center;
+}
+
+.annotation-check-icon {
+	width: 16px;
+	margin-top: 2px;
+	margin-left: 12px;
+}
+
+.bundle-options {
+	list-style: none;
+}
+.bundle-options-radio {
+	display: inline-block;
+	margin-right: 15px;
+	padding-top: 10px;
+}
+.bundle-options-comment {
+	padding-top: 10px;
+}
+input.bundle-options-radio {
+	visibility: hidden;
+}
+label {
+	cursor: pointer;
+}
+.ui.checkbox.bundle-options-radio label {
+	color: #9ca3af;
+	font-size: 12px;
+	background-color: #e4e4e7;
+}
+
+.ui.checkbox input.hidden + label {
+	padding: 1px 12px;
+	border-radius: 15px;
+}
+
+.ui.checkbox input:checked + label {
+	color: #fafafa;
+}
+
+.ui.radio.bundle-options-radio input:checked + label {
+	background: var(--info-color);
+}
+
+.ui.radio.checkbox .box::after,
+.ui.radio.checkbox label::after {
+	display: none;
+}
+
+.ui.radio.checkbox .box::before,
+.ui.radio.checkbox label::before {
+	display: none;
+}
+
+.ui.checkbox.bundle-options-radio input:focus + label {
+	color: #fafafa;
+}

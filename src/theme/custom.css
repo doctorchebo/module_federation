@@ -1,0 +1,114 @@
+.new-subtitle {
+	display: none;
+	width: 152px;
+}
+
+.name-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cell-compose-content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.text-with-ellipsis {
+	width: 300px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.scholar-name-column:not(.row) {
+	width: 270px !important;
+}
+
+.scholar-programs-column:not(.row) {
+	width: 200px !important;
+}
+
+.scholar-event-column {
+	margin-left: auto;
+}
+
+@media (max-width: 1170px) {
+	.scholar-event-column {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 950px) {
+	.new-subtitle {
+		display: flex;
+		align-items: center;
+		width: 152px;
+		height: 54px;
+	}
+
+	.personal-container .ui.table:not(.unstackable) thead {
+		display: none;
+	}
+
+	.personal-container .ui.table:not(.unstackable) tbody,
+	.personal-container .ui.table:not(.unstackable) tr,
+	.personal-container .ui.table:not(.unstackable) tr > th,
+	.personal-container .ui.table:not(.unstackable) tr > td {
+		width: auto !important;
+		display: block !important;
+	}
+	.personal-container .ui.table:not(.unstackable) tr {
+		padding-bottom: 1em;
+		box-shadow: 0 -1px 0 0 rgb(0 0 0 / 10%) inset !important;
+	}
+
+	.personal-container .ui.table:not(.unstackable) tr > th,
+	.personal-container .ui.table:not(.unstackable) tr > td {
+		background: none;
+		border: none !important;
+		padding: 0.25em 0.75em !important;
+		box-shadow: none !important;
+	}
+
+	.personal-container .table-container.ui.table tr td {
+		border-top: 5px solid var(--bg-first-color);
+		height: 55px !important;
+	}
+
+	.scholar-table .table-container.ui.table tr td {
+		height: auto !important;
+	}
+
+	.personal-container .ui.table:not(.unstackable) th:first-child {
+		font-weight: bold;
+	}
+
+	.personal-container .ui.table:not(.unstackable) td:first-child {
+		font-weight: bold;
+	}
+
+	.personal-container .table-container.ui.table tr:first-child td {
+		border-top: 5px solid var(--bg-first-color);
+		height: 55px !important;
+	}
+
+	.new-action {
+		position: absolute;
+		top: 10px;
+		right: 5px;
+	}
+	.new-row-card {
+		position: relative;
+		padding-top: 2rem;
+	}
+
+	.personal-container .ui.table:not(.unstackable) tr > td.new-action-cell {
+		display: none;
+	}
+	.personal-container .table-container.ui.table tr td.new-action-cell,
+	.personal-container .table-container.ui.table tr:first-child td.new-action-cell {
+		height: 1px !important;
+	}
+}

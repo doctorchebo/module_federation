@@ -1,0 +1,156 @@
+{
+	"any": {
+		"name": "Clear",
+		"value": ""
+	},
+	"filters": {
+		"scholar": {
+			"name": "Status",
+			"key": "StatusTypeId"
+		},
+		"programVersion": {
+			"name": "Version",
+			"key": "ProgramVersions"
+		},
+		"types": {
+			"name": "Types",
+			"key": "applicantsType"
+		}
+	},
+	"scholars": "Scholar",
+	"statusHistory": "Status History",
+	"changeStatus": "Change Status",
+	"title": "Scholars",
+	"textAddEventIn": "added an event in",
+	"fileTypes": ".xlsx .csv",
+	"headers": ["All", "User", "email Address", "Phone Number", "City", "Version"],
+	"evaluationNotApproved": "All trainers needs to approve before to close this evaluation",
+	"forbidenRole": "Only coordinator is allowed to close an evaluation",
+	"somethingHappened": "Oops, Something Happened",
+	"successSaving": "Evaluation saved",
+	"errorSaving": "Error saving the evaluation",
+	"errorClosing": "Error finishing evaluation",
+	"errorLoadingApprovals": "Error loading approvals",
+	"event": "Events",
+	"program": "Enroll in Program",
+	"evaluation": {
+		"finish": "Finish Evaluation",
+		"finished": "Evaluation Finished",
+		"save": "Save",
+		"undo": "Reset",
+		"isRecommended": "Recommended for the next stage?",
+		"recommendedYes": "Yes",
+		"recommendedNo": "No",
+		"generalComments": "Comments - Recommendations",
+		"goalsComments": "Goals for Next Stage",
+		"scholar": "Applicant",
+		"evaluation": "evaluation",
+		"reload": "Reload"
+	},
+	"approvals": {
+		"markSuccess": "Marked Successfully",
+		"unmarkSuccess": "Unmarked Successfully",
+		"markFailTitle": "Something happened",
+		"markFailList": [
+			"Please, check if this approval belongs to you.",
+			"If this continues, please talk with an administrator."
+		]
+	},
+	"scholar": {
+		"title": "Scholar Profile",
+		"fullName": "Full name:",
+		"email": "Email:",
+		"contactInfo": {
+			"title": "Contact Information",
+			"phone": "Phone:",
+			"personalEmail": "Personal email:",
+			"currentCity": "Current city:"
+		},
+		"educationalInfo": {
+			"title": "Educational Information",
+			"university": "University:",
+			"career": "Career:",
+			"academicDegree": "Academic degree:"
+		}
+	},
+	"eventType": {
+		"accomplishment": "Accomplishment",
+		"incident": "Incident",
+		"informational": "Informational"
+	},
+	"page": {
+		"loading": "Loading...",
+		"error": "Error"
+	},
+	"updateScholarForm": {
+		"update": {
+			"title": "Update Scholar",
+			"label": "Edit"
+		},
+		"errorMessages": {
+			"email": {
+				"required": "Email is required",
+				"minLength": "Name must have at least %s characters",
+				"maxLength": "Name must not have more than %s characters",
+				"emailFormat": "Field must be an email"
+			},
+			"phoneNumber": {
+				"required": "Phone number is required",
+				"format": "Field must be a phone number valid"
+			},
+			"currentCity": {
+				"required": "CurrentCity is required",
+				"minLength": "Current city must have at least %s characters",
+				"maxLength": "Current city must not have more than %s characters"
+			},
+			"university": {
+				"required": "University is required",
+				"minLength": "University must have at least %s characters",
+				"maxLength": "University must not have more than %s characters"
+			},
+			"career": {
+				"required": "Career is required",
+				"minLength": "Career must have at least %s characters",
+				"maxLength": "Career must not have more than %s characters"
+			},
+			"degree": {
+				"required": "Academic Degree is required",
+				"minLength": "Academic Degree must have at least %s characters",
+				"maxLength": "Academic Degree must not have more than %s characters"
+			}
+		},
+		"fields": {
+			"email": {
+				"label": "Email",
+				"placeholder": "Scholar email"
+			},
+			"currentCity": {
+				"label": "Current city",
+				"placeholder": "Choose a city"
+			},
+			"phoneNumber": {
+				"label": "Phone Number",
+				"placeholder": "Scholar phone number"
+			},
+			"university": {
+				"label": "University",
+				"placeholder": "Scholar university"
+			},
+			"career": {
+				"label": "Career",
+				"placeholder": "Scholar career"
+			},
+			"academicDegree": {
+				"label": "Academic Degree",
+				"placeholder": "Scholar academic degree status"
+			}
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"save": "Save",
+		"cancel": "Cancel",
+		"updateSuccess": "Updated Successfully",
+		"updateError": "Updated failed"
+	}
+}

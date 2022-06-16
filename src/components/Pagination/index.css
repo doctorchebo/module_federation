@@ -1,0 +1,19 @@
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 2rem;
+}
+
+.pagination .message {
+	left: --wide-screen=1230px;
+	text-align: center;
+	color: var(--text-primary);
+	/* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+	font: normal normal normal 14px/16px Lato;
+	opacity: 1;
+}
+
+.pagination .spacing {
+	width: 16px;
+}

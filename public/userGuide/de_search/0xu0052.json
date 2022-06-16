@@ -1,0 +1,21 @@
+[
+	{ "s": "RATING", "p": [14] },
+	{ "s": "REASON", "p": [25, 24] },
+	{ "s": "RECOMMENDATIONS", "p": [14] },
+	{ "s": "RECOMMENDED", "p": [14] },
+	{ "s": "RECOVER", "p": [4] },
+	{ "s": "REDIRECT", "p": [10] },
+	{ "s": "REDIRECTS", "p": [2, 3] },
+	{ "s": "REGISTERED", "p": [9, 3] },
+	{ "s": "RELATED", "p": [8] },
+	{ "s": "REPEAT", "p": [4] },
+	{ "s": "REPRODUCED", "p": [26] },
+	{ "s": "REPRODUCED,COPIED", "p": [26] },
+	{ "s": "REQUESTED", "p": [4] },
+	{ "s": "RESERVED", "p": [26] },
+	{ "s": "RESET", "p": [4] },
+	{ "s": "RESETS", "p": [4] },
+	{ "s": "RIGHT", "p": [19] },
+	{ "s": "RIGHTS", "p": [26] },
+	{ "s": "ROLES", "p": [2] }
+]

@@ -1,0 +1,3 @@
+.login-container .message {
+	color: var(--error-color) !important;
+}

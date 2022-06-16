@@ -1,0 +1,46 @@
+.not-found,
+.bg {
+	width: 100vw;
+	height: 100vh;
+}
+
+.not-found {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 220;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: var(--bg-first-color);
+}
+
+.not-found .bg {
+	position: absolute;
+	background-image: url(../../assets/img/404.png);
+	background-size: 1000px;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
+	opacity: 0.3;
+}
+
+.not-found .ui.header {
+	margin: 0;
+}
+
+.not-found .ui.header:first-child {
+	font-size: 12rem;
+	color: var(--title-color);
+}
+
+.not-found .ui.header:nth-child(3) {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	color: var(--title-color);
+}
+
+.not-found a {
+	cursor: pointer;
+	color: var(--primary-color);
+}

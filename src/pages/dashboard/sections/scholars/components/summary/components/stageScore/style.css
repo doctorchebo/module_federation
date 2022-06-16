@@ -1,0 +1,50 @@
+:root {
+	--header-widget: rgba(0, 0, 0, 0.4);
+	--score-five: rgb(135 212 139);
+	--score-four: #f1f175;
+	--score-three: #f1c675;
+	--score-two: #f38484;
+	--score-one: #da4e4e;
+}
+.ui.card.widget-stage {
+	width: 100%;
+	height: 100%;
+}
+
+.ui.card.widget-stage > .content > .header {
+	color: var(--header-widget);
+}
+
+.ui.progress.one .bar {
+	background: var(--score-one);
+}
+.ui.progress.two .bar {
+	background: var(--score-two);
+}
+.ui.progress.three .bar {
+	background: var(--score-three);
+}
+.ui.progress.four .bar {
+	background: var(--score-four);
+}
+.ui.progress.five .bar {
+	background: var(--score-five);
+}
+
+.ui.progress.five .bar > .progress,
+.ui.progress.four .bar > .progress,
+.ui.progress.three .bar > .progress,
+.ui.progress.two .bar > .progress,
+.ui.progress.one .bar > .progress {
+	color: white;
+}
+
+.ui.card.widget-stage > .content .databar {
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.ui.card.widget-stage > .content .databar:hover {
+	transform: scale(1.03, 1.03);
+	border: 1px;
+}

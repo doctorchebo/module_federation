@@ -1,0 +1,37 @@
+{
+	"Auth": {
+		"URL": "http://localhost",
+		"PORT": 44316,
+		"API_URL": "http://localhost:44316/api/v1/"
+	},
+	"Main": {
+		"URL": "http://localhost",
+		"PORT": 9000,
+		"API_URL": "http://localhost:9000/api/v1/"
+	},
+	"Identity": {
+		"URL": "http://localhost",
+		"PORT": 9000,
+		"API_URL": "http://localhost:9000/api/v1/"
+	},
+	"Attachments": {
+		"URL": "http://localhost",
+		"PORT": 8084,
+		"API_URL": "http://localhost:8084/api/v1/"
+	},
+	"Notifications": {
+		"URL": "http://localhost:8085",
+		"PORT": 8085,
+		"API_URL": "http://localhost:8085/api/v1/"
+	},
+	"DummyBackend": {
+		"URL": "http://localhost:9000",
+		"PORT": 9000,
+		"API_URL": "http://localhost:9000/api/v1/"
+	},
+	"Candidates": {
+		"URL": "https://localhost:7137",
+		"PORT": 7137,
+		"API_URL": "https://localhost:7137/api/v1/"
+	}
+}

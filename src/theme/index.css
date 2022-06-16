@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import 'semantic-ui-css/semantic.css';
+@import './sizes.css';
+@import './colors.css';
+@import './custom.css';
+@import './utils.css';
+
+:root {
+	--text-font-family: 'Inter';
+}
+
+body {
+	margin: 0;
+	background-image: url('./../assets/img/background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+/* Table global */
+.table-container.ui.table {
+	background-color: transparent;
+	border: 0;
+	font-family: 'Inter', sans-serif;
+	border-radius: 0;
+}
+
+/* Table global header */
+.table-container.ui.table thead th {
+	border-bottom: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: var(--text-header-color);
+	text-transform: uppercase;
+}
+
+/* Table global header sort ascending */
+.table-container.ui.table thead th.ASC::after {
+	font-family: 'Material Icons', sans-serif;
+	content: '\e5d8';
+	color: var(--primary-light-color);
+	display: inline-block;
+	margin-left: 0.3em;
+	font-size: 15px;
+}
+
+/* Table global header sort descending */
+.table-container.ui.table thead th.DESC::after {
+	font-family: 'Material Icons', sans-serif;
+	content: '\e5db';
+	color: var(--primary-light-color);
+	display: inline-block;
+	margin-left: 0.3em;
+	font-size: 15px;
+}
+
+/* Table global body */
+.table-container.ui.table tbody {
+	background-color: var(--bg-third-color);
+	color: var(--text-table-color);
+	font-size: 16px;
+}
+
+/* Table global body row column */
+.table-container.ui.table tr td,
+.table-container.ui.table tr:first-child td {
+	border-top: 5px solid var(--bg-first-color);
+	height: 95px;
+}
+
+/* Personal container */
+.personal-container {
+	max-width: var(--large-screen);
+	margin: 0 auto;
+}
+
+.ui.floating.icon.warning.message {
+	background-color: var(--bg-first-color);
+}
+
+.ui.floating.icon.warning.message .content .header {
+	color: var(--warning-dark-color);
+}
+
+.ui.floating.icon.warning.message .warning.sign.icon {
+	color: var(--warning-dark-color);
+}

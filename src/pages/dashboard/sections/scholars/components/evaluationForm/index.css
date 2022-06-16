@@ -1,0 +1,52 @@
+.ui.form .fields.final-part {
+	display: flex;
+	align-items: center;
+	background-color: var(--bg-primary-color);
+	margin-top: 1rem;
+}
+
+.ui.form .fields.final-part .container {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.fields.final-part .recommend {
+	display: flex;
+	align-items: center;
+}
+
+.fields.final-part .recommend .ui.checkbox {
+	padding-top: 0;
+}
+
+.fields.final-part .recommend .question {
+	font-size: 16px;
+	font-weight: bold;
+	padding-right: 16px;
+	color: var(--primary-color);
+}
+
+.ui.form .fields.final-comments {
+	display: block;
+}
+
+.ui.form .fields.final-comments .comment {
+	padding-top: 18px;
+}
+
+.evaluation-form .save-button.ui.button {
+	background-color: var(--primary-color);
+	color: var(--bg-third-color);
+}
+
+.evaluation-form .undo-button.ui.button {
+	background-color: inherit;
+	border: none;
+	color: var(--text-table-color);
+}

@@ -1,0 +1,31 @@
+.dataKeyHeader {
+	background-color: transparent;
+	border: 0;
+	font-family: 'Inter', sans-serif;
+	border-radius: 0;
+}
+.bulkTable {
+	max-width: 100%;
+}
+.bulkTable .ReactVirtualized__Table__headerRow {
+	border-bottom: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: var(--text-header-color);
+	text-transform: uppercase;
+	padding: 0.92857143em 0.78571429em;
+	font-family: 'Inter', sans-serif;
+	height: 40px;
+}
+.bulkTable .ReactVirtualized__Table__row {
+	height: 95px;
+	border-top: 5px solid var(--bg-first-color);
+	padding: 0.78571429em 0.78571429em;
+	text-align: inherit;
+	background-color: white;
+}
+.bulkTable .ReactVirtualized__Table__Grid {
+	width: 100%;
+	max-width: 100%;
+	height: 400px;
+}

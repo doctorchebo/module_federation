@@ -1,0 +1,16 @@
+.scholar.table-container.ui.table thead th:last-child {
+	text-align: left;
+}
+
+.scholar.table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.scholar.ui.table thead tr:first-child > th:first-child {
+	width: 6%;
+}
+
+.scholar.ui.table thead tr:last-child > th:last-child {
+	width: 70%;
+}

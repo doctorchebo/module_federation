@@ -1,0 +1,42 @@
+.vertical-timeline::before {
+	background: var(--border-color);
+}
+
+.timeline .timeline-item .vertical-timeline-element-icon {
+	background: var(--black-color);
+	color: var(--bg-primary-color);
+	text-align: center;
+	border: 4px solid var(--border-color);
+	box-shadow: none;
+}
+
+.timeline .timeline-item .vertical-timeline-element-content {
+	background: var(--bg-first-color);
+	color: var(--black-color);
+	border: 1px solid var(--border-color);
+}
+
+.timeline .timeline-item .vertical-timeline-element-content-arrow {
+	display: none;
+}
+
+.timeline .timeline-item .node-icon {
+	position: relative;
+	top: 14%;
+	left: 5%;
+}
+
+.timeline .timeline-item .header {
+	font-size: larger;
+	font-weight: bold;
+}
+
+.timeline .timeline-item .sub-header {
+	font-size: medium;
+	font-weight: bold;
+	color: var(--text-gray-light);
+}
+
+.timeline .timeline-item .description {
+	font-size: medium;
+}

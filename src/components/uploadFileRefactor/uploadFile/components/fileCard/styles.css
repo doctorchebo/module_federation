@@ -1,0 +1,25 @@
+.file-card {
+	background: var(--file-card-background);
+	margin: 0 0 6px 0;
+}
+
+.file-card .content {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding-left: 4px;
+	color: var(--black-color);
+	opacity: 0.8;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.file-card .content .info-content {
+	width: 100%;
+	margin-left: 8px;
+}
+
+.file-card .content .info-content .filename {
+	margin: 6px 0;
+	word-break: break-all;
+}

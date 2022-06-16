@@ -1,0 +1,76 @@
+{
+	"filters": {
+		"candidate": {
+			"name": "Status",
+			"key": "StatusTypeId"
+		},
+		"programVersion": {
+			"name": "Version",
+			"key": "ProgramVersions"
+		}
+	},
+	"candidates": "Candidates",
+	"title": "Candidates",
+	"somethingHappened": "Oops, Something Happened",
+	"updateCandidateForm": {
+		"update": {
+			"title": "Update Candidate"
+		},
+		"errorMessages": {
+			"fullName": {
+				"required": "Full name is required",
+				"minLength": "Full name must have at least %s characters",
+				"maxLength": "Full name must not have more than %s characters"
+			},
+			"email": {
+				"required": "Email is required",
+				"minLength": "Email must have at least %s characters",
+				"maxLength": "Email must not have more than %s characters",
+				"emailFormat": "Field must be an email"
+			},
+			"phoneNumber": {
+				"required": "Phone number is required",
+				"format": "Field must be a phone number valid",
+				"minLength": "Phone number must have at least %s characters",
+				"maxLength": "Phone number must not have more than %s characters"
+			}
+		},
+		"fields": {
+			"email": {
+				"label": "Email",
+				"placeholder": "User email"
+			},
+			"fullName": {
+				"label": "Full Name",
+				"placeholder": "Candidate full name"
+			},
+			"phoneNumber": {
+				"label": "Phone Number",
+				"placeholder": "Candidate phone number"
+			},
+			"currentProgram": {
+				"label": "Program",
+				"placeholder": "Candidate program"
+			},
+			"status": {
+				"label": "Status",
+				"placeholder": "Candidate status"
+			},
+			"resume": {
+				"label": "Resume",
+				"placeholder": "Candidate resume"
+			},
+			"sign_off": {
+				"label": "Sign-Off",
+				"placeholder": false
+			}
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"save": "Save",
+		"cancel": "Cancel",
+		"updateSuccess": "Updated Successfully",
+		"updateError": "Updated failed"
+	}
+}

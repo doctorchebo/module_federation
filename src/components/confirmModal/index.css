@@ -1,0 +1,36 @@
+.confirm-modal.ui.modal {
+	max-width: 400px;
+	background-color: white;
+	border-radius: 0;
+	padding: 12px;
+}
+
+.confirm-modal.ui.modal > .content {
+	font-size: 16px;
+}
+
+.confirm-modal.ui.modal div:first-child {
+	border: 0;
+	background-color: var(--bg-first-color);
+}
+
+.confirm-modal.ui.modal div:last-child {
+	border: 0;
+	background-color: var(--bg-first-color);
+}
+
+.confirm-modal.ui.modal .ui.primary.button {
+	background-color: var(--primary-color);
+	border-radius: 0;
+}
+
+.confirm-modal.ui.modal .ui.button {
+	background-color: var(--bg-first-color);
+	border-radius: 0;
+}
+
+.dimmed.dimmable > .ui.animating.dimmer,
+.dimmed.dimmable > .ui.visible.dimmer,
+.ui.active.dimmer {
+	z-index: 240;
+}

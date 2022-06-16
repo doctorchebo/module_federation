@@ -1,0 +1,37 @@
+#card-container {
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: 0;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+/* icon to pop up */
+#icon-card-candidate {
+	display: inline-block;
+	width: 2rem;
+}
+
+#icon-card-candidate i {
+	font-size: 1.2rem;
+}
+
+/* content of the card */
+#content-card-candidate {
+	display: inline-block;
+}
+
+#content-card-candidate span {
+	font-size: 0.8rem;
+	padding-left: 3.2rem;
+}
+
+#expandable {
+	background: var(--bg-third-color);
+	border-radius: 0 0 10px 10px;
+	margin: 0;
+	padding: 0 1rem 1rem 3rem;
+}

@@ -1,0 +1,134 @@
+.card-event {
+	margin-top: 2rem;
+}
+
+.card-event .ui.card > .content > .meta {
+	margin-bottom: 18px;
+	font-size: 14px;
+}
+
+.card-event .ui.card > .content > .header:nth-child(2) {
+	margin-top: 18px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.card-event .ui.card > .content > .header:nth-child(1) {
+	font-size: 16px;
+	color: var(--text-table-color);
+}
+
+.card-event .ui.card > .content > .header h2,
+.card-event .ui.card > .content > .header h4,
+.card-event .ui.card > .content > .header h3 {
+	display: inline;
+	font-size: 16px;
+}
+
+.card-event .ui.card > .content > .header h4 {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.card-event .ui.card > .content > .header h3 {
+	opacity: 0.8;
+}
+
+.card-event .ui.card {
+	font-size: 14px;
+	width: 100%;
+	padding: 8px;
+}
+
+.card-event .ui.card > .content .subject {
+	display: inline;
+	color: var(--success-dark-color);
+}
+
+.card-event .ui.card > .content .subject::after {
+	color: var(--text-header-color);
+	content: ' · ';
+}
+
+.card-event .ui.card > .content .event-modified {
+	color: var(--text-header-color);
+	font-style: italic;
+}
+
+.card-event .show-more {
+	overflow-wrap: break-word;
+}
+
+.card-event .ui.card .card-icon.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-icon .icon {
+	color: var(--text-table-color);
+	cursor: pointer;
+	width: 18px;
+}
+
+.card-icon .content-icon > .icon {
+	margin-right: 5px;
+}
+
+.card-icon .icon::before {
+	padding: 0.5rem;
+}
+
+.active .event-list .events .card-event .ui.card > .content > .header:nth-child(n) {
+	margin-top: -0.2rem;
+}
+
+.active .event-list .events .card-event .ui.card > .content > .meta {
+	margin-bottom: -0.5rem;
+}
+
+.active .event-list .events .card-event .ui.card > .content {
+	border-top: 0;
+	margin-left: 2.7rem;
+}
+
+.img-container {
+	position: absolute;
+	top: 1.6rem;
+	left: 1rem;
+}
+
+.evaluation-event .event-list .events .card-event .ui.card .img-container,
+.scholars .event-list .events .card-event .ui.card .img-container {
+	display: none;
+}
+
+.evaluation-event .event-list .events .card-event .ui.card > .content,
+.scholars .event-list .events .card-event .ui.card > .content {
+	border-top: 0;
+}
+
+.ui.card > .content .description p {
+	margin: 0 0 0;
+}
+
+.description .container-rich-text .rich-text-show {
+	margin: 0;
+}
+
+/* Animations */
+@keyframes blink-animation {
+	to {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+}
+
+@-webkit-keyframes blink-animation {
+	to {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+}

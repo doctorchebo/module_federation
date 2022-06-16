@@ -1,0 +1,15 @@
+.sidebar-main.ui.segment {
+	border-radius: 0;
+	border: 0;
+	margin: 0;
+}
+
+.sidebar-main.pushable:not(body) {
+	transform: none;
+}
+.ui.overlay.sidebar.right {
+	z-index: 200;
+}
+.sidebar.ui.very.wide.sidebar.menu {
+	position: fixed;
+}

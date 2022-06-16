@@ -1,0 +1,7 @@
+.sidebar.right.right-sidebar.very.wide {
+	padding: 0;
+	margin: 0;
+	background-color: var(--bg-third-color);
+	z-index: 230;
+	overflow-x: hidden;
+}

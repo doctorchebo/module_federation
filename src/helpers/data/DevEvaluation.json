@@ -1,0 +1,1086 @@
+{
+    "EvaluationId": "d362dbe0-53ff-471f-9185-8c802941ef4d",
+	"scholarId": "70939d04-efa2-4afa-9589-dc42b776d5ae",
+	"stageId": "74621a3b-7a59-4985-8259-b8222ffbbebb",
+	"userId": "3f82cdb4-ee0f-4d7a-bf6e-b8964214f56b",
+	"mode": "Edit",
+	"overallRating": 80.0,
+	"generalComments": "general comments",
+	"goals": "goals",
+	"isRecommended": 1,
+	"currentVersion": 1,
+	"isClosed": false,
+    "skills": [
+		{
+			"skillId": "7e74c374-b18e-4f53-9d19-6aca07c3a7b2",
+			"name": "Job Knowledge",
+			"score": 0,
+			"questions": [
+				{
+					"questionId": "81d1ed5b-4324-48ee-84f6-d7589b788f6c",
+					"title": "How much the scholar knows about the product and the product domain (technology related with the product) being developed?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "testId-01",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "418ce114-c09f-439b-9c45-4ff3e07059f9",
+					"title": "How much does the scholar know about the development processes involved in daily work?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "1b6d8c04-b583-4677-a015-bfa8cdb4951f",
+					"title": "Does the scholar apply the above knowledge regularly?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				}
+			]
+		},
+        {
+			"skillId": "3173dfcd-c3e1-4439-a625-296e9faf10dd",
+			"name": "Work Quality",
+			"score": 0,
+			"questions": [
+				{
+					"questionId": "636e6159-e67c-4cc7-ba55-4a7905650c1c",
+					"title": "How good are the estimates the scholar does and how accurate is his/her task execution?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "ccc46dd4-a58a-46dd-9524-4dc8b7b61839",
+					"title": "How quickly can he understand and take over somebody else’s code?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "d99eba55-cbef-4113-9887-11f200267589",
+					"title": "How closely he/she follows coding practices defined by the customer and/or the team?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "b15a5b96-70e5-4024-9484-783aecb9b923",
+					"title": "How good are the results of code reviews on the scholar’s code?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "0bfcd269-d1f5-4a5d-8c5c-b0a23c9874a6",
+					"title": "How much supervision does a scholar need to integrate his code to the current development branch?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "326b5873-6032-4c3a-85ba-413b4b2bd555",
+					"title": "How frequently are bugs reported on the scholar’s code and how critical those bugs are?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "1ed8d2c4-e2a1-49b0-a590-580e502f0ad7",
+					"title": "How familiar is he/she with the development environment he/she works on (production code machine, deploy and test machine, build process)?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				}
+			]
+		},
+        {
+			"skillId": "ede3126e-882d-405f-bd1d-3fce040276b8",
+			"name": "Attendance/Punctuality",
+			"score": 0,
+			"questions": [
+				{
+					"questionId": "f9338f85-dc96-4e99-b93d-762657bc1d93",
+					"title": "Is the scholar on time for Meetings?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "fe9c99ab-3c7e-4314-8ece-c7a1354bf03d",
+					"title": "Is the scholar focused during meetings?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "b0758487-a52e-4363-8ebc-1494b3d4d17c",
+					"title": "Does the scholar contribute with information and feedback during meetings?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				}
+			]
+		},
+        {
+			"skillId": "cef40f67-0ebf-43bb-b797-b02ccc16cd15",
+			"name": "Initiative/Proactivity",
+			"score": 0,
+			"questions": [
+				{
+					"questionId": "2e37e818-249a-457e-a85c-d677db786771",
+					"title": "Does the scholar research technology related with the product under development?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "5b54d81b-56c5-4785-91f4-e61c6d8fc97f",
+					"title": "Does the scholar provide feedback on processes and proposes changes for improvement?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "0c96334e-516c-4b04-a9e6-4d822243e0e8",
+					"title": "Does the scholar build/find tools to improve his task execution speed without being told to do so?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "511f6e26-492f-4a76-a9f2-9ad48c52f8e4",
+					"title": "Does the scholar exceed expectations?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "cbb8f0ac-1fd6-41d5-be8b-c749da72fa81",
+					"title": "Does the scholar provide feedback about the product quality or functionality on his own, making sure this feedback reaches the appropriate stakeholders?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				}
+			]
+		},
+        {
+			"skillId": "7d835480-a68d-4896-998a-2555e9ff9c58",
+			"name": "Communication/Listening Skills",
+			"score": 0,
+			"questions": [
+				{
+					"questionId": "a8561174-0eea-4e6e-b270-732f18dbeff5",
+					"title": "Does the scholar understand his/her tasks assignments? If not, does he/she provide feedback about the problems found? How early is this feedback provided?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "e048cd9f-1f12-406a-b9fa-5be2cf770437",
+					"title": "Does the scholar communicate in a proper way with the team?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "ca432698-d24f-4e44-a8ac-e22ea37bd539",
+					"title": "Does the scholar listen first and then gives opinions?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "daa9d887-8fd7-495e-9ab3-bc9614227058",
+					"title": "Does the scholar raise flags or escalate problems on time?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "e4668e5d-8a48-4a11-96d6-2b863ec49b82",
+					"title": "Does the scholar share his/her findings with the team?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "2a45fd3b-3bac-4e9a-bc29-a2406f3539fe",
+					"title": "Does the scholar communicate his/her ideas in a clear and structured way? Does he/she make sure everyone else understands them?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "564b0b80-aba1-46a0-bbeb-c2226e8b7f92",
+					"title": "Does the scholar communicate his status and share knowledge and opinions during meetings?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "4f40a3c1-c2f3-4556-a5eb-2425ed7f774f",
+					"title": "Does the scholar give her/his opinion or constructive criticism on project status, processes and product quality?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "c89ff17e-7ed1-4c8d-9f21-bf1293e27b61",
+					"title": "Does the scholar give support to the team on meetings/demos? E.g translating, clarifying, avoiding silence when people ask questions to the team.",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				}
+			]
+		},
+        {
+			"skillId": "e7595851-d625-439e-ad3c-c770c852ddb6",
+			"name": "Self-Sufficiency",
+			"score": 0,
+			"questions": [
+				{
+					"questionId": "4fca7ab5-cb6d-4d78-a087-f07b03912f70",
+					"title": "Can the scholar work alone and remove roadblocks on his/her own?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "c6968f72-5e9f-41e7-ae14-4c47666daf47",
+					"title": "Does the scholar escalate problems when indeed is necessary?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "d2e4c172-d934-4d97-b0d2-e91549bdd865",
+					"title": "How would you grade the amount of supervision needed by the scholar in relation to his/her contacts (sending emails, having textual or phone conversations) with the customer?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "8630a650-03a2-488d-be92-7c66278b6903",
+					"title": "How well the scholar adapts to new challenges like, new features or new projects?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				}
+			]
+		},
+        {
+			"skillId": "21cdf8ea-0b39-443a-b01d-83e7b3d26fe6",
+			"name": "Time Management",
+			"score": 0,
+			"questions": [
+                {
+					"questionId": "016f03c5-42ef-4e0b-841a-a74547f7b5fc",
+					"title": "How well does the scholar balance the time between high priority tasks and low priority tasks?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "648c7414-608d-4c0e-aa0d-b8d7d1300965",
+					"title": "How good are the time estimates the scholar provides? How well does he manage his/her remaining (result of overestimation or from removing tasks from the iteration) hours?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "a1e4b41d-e483-4011-9995-40f7cc4d207d",
+                            "name": "Poor",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a52b7312-c902-43a7-b011-381936d05fbd",
+                            "name": "Fair",
+                            "weight": 2
+                        },
+                        {
+                            "id": "336c7c25-9357-4785-9839-5336884666de",
+                            "name": "Satisfactory",
+                            "weight": 3
+                        },
+                        {
+                            "id": "8d9a6dea-622d-48a3-90f2-39668ed0820f",
+                            "name": "Good",
+                            "weight": 4
+                        },
+                        {
+                            "id": "048d85c1-8e74-444a-95fb-f377f32d24b2",
+                            "name": "Excellent",
+                            "weight": 5
+                        }
+					]
+				},
+                {
+					"questionId": "00256ff3-f184-489c-a51d-9bc2f2055555",
+					"title": "Do you see a clear balance on time spent in the company vs. tasks assigned and work performed?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "30d47c3a-499d-41e9-b4c6-248d42876ec9",
+					"title": "Do you feel comfortable with the scholar’s productivity?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "1738592f-5a53-45b3-ba6d-3b52d231d71d",
+					"title": "Does the scholar avoid over committing to tasks that won't be able to be completed on time or with the appropriate quality?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				}
+			]
+		},
+        {
+			"skillId": "78a4429b-6e45-4b5b-b8b6-94dabd652b24",
+			"name": "Responsibility/Commitment",
+			"score": 0,
+			"questions": [
+                {
+					"questionId": "e2d283c0-50b5-40ce-b864-3c75d0b558f3",
+					"title": "Is the scholar committed to the project? With the company?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "b4fffb56-7985-4ed0-9fee-14250eea5261",
+					"title": "Does the scholar accomplish due dates?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "bf624477-f8ce-4f29-9577-fc2bb5bc375b",
+					"title": "Is the scholar committed with the goals of the team?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "d5480460-5161-4b6e-bdff-7745e25b399c",
+					"title": "Does the scholar follow company’s regulations and practices taking policies seriously?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				},
+                {
+					"questionId": "78997e74-76ff-4a9d-b581-097a91b4cd3e",
+					"title": "Is the scholar willing to go the extra mile when needed?",
+					"answer": {
+						"optionSelectedId": "",
+						"comment": ""
+					},
+					"options": [
+						{
+                            "id": "d70a24d9-fdb9-49c2-bbbd-32d011b5a8d1",
+                            "name": "Yes",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8160846e-0fda-464a-b519-dde1cd175bc1",
+                            "name": "No",
+                            "weight": 2
+                        }
+					]
+				}
+			]
+		}
+	]
+}

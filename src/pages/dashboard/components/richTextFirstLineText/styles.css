@@ -1,0 +1,23 @@
+.rich-text-show {
+	overflow: visible;
+	height: auto;
+}
+
+.description .container-rich-text .rich-text-show {
+	margin: 0;
+}
+
+.rich-text-clamp {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	overflow: hidden;
+}
+
+.buttonClass {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	margin-right: 1.2rem;
+}

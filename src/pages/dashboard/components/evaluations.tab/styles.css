@@ -1,0 +1,14 @@
+.scholars {
+	padding: 14px 40px;
+}
+
+.scholars.tab .ui.pointing.secondary.menu a {
+	color: var(--primary-color);
+	font-size: 16px;
+}
+
+.scholars.tab .ui.pointing.secondary.menu a.active.item {
+	font-weight: bold;
+	color: var(--primary-color);
+	border-color: var(--primary-color);
+}

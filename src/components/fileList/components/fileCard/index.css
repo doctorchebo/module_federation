@@ -1,0 +1,51 @@
+.file_card {
+	background: #f4f4f5;
+	margin: 0 0 6px 0 !important;
+}
+
+.file_card .content {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding-left: 4px;
+	color: black;
+	opacity: 0.8;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.file_card .content .fileMessage_error {
+	font-size: 12px;
+	color: #f87171;
+}
+
+.file_card .content .fileMessage_error .fileMessage_error__title {
+	margin: 0;
+}
+
+.file_card .content .fileMessage_error .fileMessage_error__description {
+	word-break: break-all;
+	white-space: normal;
+	margin: 0;
+}
+
+.file_card .content .fileMessage_validing {
+	font-size: 12px;
+	color: #9e9eae;
+}
+
+.file_card .content .info_content {
+	width: 100%;
+	margin-left: 8px;
+}
+
+.file_card .content .icon_status {
+	margin-left: 8px;
+}
+
+.file_card .content .small.progress.progress_bar {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+}

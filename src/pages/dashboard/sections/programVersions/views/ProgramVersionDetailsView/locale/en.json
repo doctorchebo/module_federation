@@ -1,0 +1,42 @@
+{
+    "fileName": "approvalHistory",
+    "sheetName": "approvalHistory", 
+    "activities_not_found": "Activities not found",
+    "candidates_not_found": "Candidates not found",
+    "postulation": "Postulation",
+    "informative_talk": "Informative Talk",
+    "exportToExcel": "Export to XLSX",
+    "exportToCsv": "Export to CSV",
+    "activity": "activity",
+    "entered": "entered",
+    "total": "Total",
+    "candidates": "Candidates",
+    "approvalHistory": "Approval History",
+    "failed": "failed",
+    "acepted": "Acepted",
+    "approved": "approved",
+    "inProgress": "inProgress",
+    "promotionMode": "Promotion Mode",
+    "programs": "Programs",
+    "coordinator": "Coordinator",
+    "duration": "Duration",
+    "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ],
+    "Activities": {
+		"activities_not_found": "activities_not_found",
+		"candidates_not_found": "candidates_not_found"
+	},
+    "selectActivity": "Select an activity"
+}

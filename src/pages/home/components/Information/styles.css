@@ -1,0 +1,10 @@
+.information-title {
+	font-size: 2.5em !important;
+	text-align: center;
+	text-decoration: underline;
+	height: 2cm;
+}
+.information-body {
+	font-size: 1.33em;
+	height: 3cm;
+}

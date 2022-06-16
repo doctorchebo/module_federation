@@ -1,0 +1,58 @@
+.events {
+	padding: 0;
+}
+
+.event-list .ui.button:not(.icon) > .icon:not(.button):not(.dropdown) {
+	margin: 0;
+}
+
+.event-list .ui.button i.icon {
+	padding-left: 0.5rem;
+}
+
+.event-list .ui.button:hover {
+	background-color: transparent;
+	color: var(--primary-light-color);
+}
+
+.event-list .ui.button:focus {
+	background-color: transparent;
+	color: var(--text-header-color);
+}
+
+.event-list .ui.button:active {
+	background-color: transparent;
+	color: var(--text-header-color);
+}
+
+.timeline .timeline-item.active .vertical-timeline-element-icon {
+	background: var(--success-dark-color);
+}
+
+.timeline .timeline-item.inactive .vertical-timeline-element-icon {
+	background: var(--error-dark-color);
+}
+
+.timeline .timeline-item.completed .vertical-timeline-element-icon {
+	background: var(--info-dark-color);
+}
+
+.timeline .timeline-item.onhold .vertical-timeline-element-icon {
+	background: var(--warning-dark-color);
+}
+
+.timeline .timeline-item.active .vertical-timeline-element-content {
+	box-shadow: 0 3px 0 var(--success-dark-color);
+}
+
+.timeline .timeline-item.inactive .vertical-timeline-element-content {
+	box-shadow: 0 3px 0 var(--error-dark-color);
+}
+
+.timeline .timeline-item.completed .vertical-timeline-element-content {
+	box-shadow: 0 3px 0 var(--info-dark-color);
+}
+
+.timeline .timeline-item.onhold .vertical-timeline-element-content {
+	box-shadow: 0 3px 0 var(--warning-dark-color);
+}

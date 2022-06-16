@@ -1,0 +1,13 @@
+DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_index' );
+DR_EXPLAIN.data_index = {
+
+	// index
+	DREX_NODE_KEYWORDS: [10],
+	DREX_NODE_KEYWORDS_START: [0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1], //length:= drex.nodes_count,
+	DREX_NODE_KEYWORDS_END: [0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1], //length:= drex.nodes_count,
+
+	DREX_KEYWORD_NAMES: ["<NUEVA PAL... ¡Se requiere una licencia Advanced!","Applicatio... ¡Se requiere una licencia Advanced!","Rend... ¡Se requiere una licencia Advanced!","Document... ¡Se requiere una licencia Advanced!","3D Pr... ¡Se requiere una licencia Advanced!","Over... ¡Se requiere una licencia Advanced!","Layer S... ¡Se requiere una licencia Advanced!","Visual ... ¡Se requiere una licencia Advanced!","Ordering I... ¡Se requiere una licencia Advanced!","System Re... ¡Se requiere una licencia Advanced!","Licensing ... ¡Se requiere una licencia Advanced!","F... ¡Se requiere una licencia Advanced!","Export... ¡Se requiere una licencia Advanced!","Me... ¡Se requiere una licencia Advanced!","Save Out... ¡Se requiere una licencia Advanced!","D... ¡Se requiere una licencia Advanced!","Rendering... ¡Se requiere una licencia Advanced!","Interpolat... ¡Se requiere una licencia Advanced!","Save Rend... ¡Se requiere una licencia Advanced!","Cover... ¡Se requiere una licencia Advanced!","Cover Backg... ¡Se requiere una licencia Advanced!","Product D... ¡Se requiere una licencia Advanced!","3D Previe... ¡Se requiere una licencia Advanced!","Gen... ¡Se requiere una licencia Advanced!","Sha... ¡Se requiere una licencia Advanced!","Grad... ¡Se requiere una licencia Advanced!","Str... ¡Se requiere una licencia Advanced!","Gl... ¡Se requiere una licencia Advanced!","Win... ¡Se requiere una licencia Advanced!","Too... ¡Se requiere una licencia Advanced!","Bottom ... ¡Se requiere una licencia Advanced!","He... ¡Se requiere una licencia Advanced!","Vi... ¡Se requiere una licencia Advanced!","Ed... ¡Se requiere una licencia Advanced!","Fi... ¡Se requiere una licencia Advanced!","Save A... ¡Se requiere una licencia Advanced!","Save ... ¡Se requiere una licencia Advanced!","Save ... ¡Se requiere una licencia Advanced!","Save ... ¡Se requiere una licencia Advanced!","Light S... ¡Se requiere una licencia Advanced!","Eff... ¡Se requiere una licencia Advanced!"],
+	DREX_KEYWORD_CHILD_START: [1,15,16,19,22,23,23,29,31,31,31,31,31,31,35,39,39,39,39,39,39,39,39,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41],
+	DREX_KEYWORD_CHILD_END: [15,16,19,22,23,23,29,31,31,31,31,31,31,35,39,39,39,39,39,39,39,39,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41]
+	
+};

@@ -1,0 +1,53 @@
+.approval-history {
+	overflow: auto;
+	width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: var(--large-screen);
+}
+
+#header.history-title::before {
+	content: '>';
+}
+
+.table-approval-history {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.table-approval-history table {
+	width: 70% !important;
+}
+
+.table-approval-history .candidates-graph {
+	width: 80% !important;
+	height: 80% !important;
+}
+
+.table-approval-history h2 {
+	color: var(--primary-color);
+}
+
+.program-version-tittle {
+	color: var(--primary-color);
+}
+
+#header .export-buttons {
+	align-items: center;
+	display: flex;
+}
+
+#header .export-buttons span {
+	display: inline-block;
+	margin-right: 2rem;
+	margin-bottom: 0;
+}
+
+#header .export-buttons a {
+	display: inline-block;
+	margin-right: 0.5rem;
+	margin-bottom: 0;
+}

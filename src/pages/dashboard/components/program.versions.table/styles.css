@@ -1,0 +1,32 @@
+.table-container.ui.table {
+	background: chocolate;
+}
+
+.table-container .stage-container {
+	display: flex;
+	color: var(--info-color);
+}
+
+.table-container .stage-container.Pending {
+	color: var(--error-color);
+}
+
+.table-container .stage-container.Completed {
+	color: var(--success-color);
+}
+
+.table-container .coordinator-container.ui.header {
+	font-weight: normal;
+	font-size: 16px;
+	color: inherit;
+	font-family: 'Inter', sans-serif;
+}
+
+.table-container .coordinator-container.ui.header .sub.header {
+	color: var(--text-subheader-color);
+	font-size: 12px;
+}
+
+.table-container.ui.table thead th:last-child {
+	text-align: right;
+}

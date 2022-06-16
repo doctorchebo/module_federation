@@ -1,0 +1,8 @@
+{
+	"description": "Summary of import",
+	"backButton": "< Back to ",
+	"importTitle": "Import your ",
+	"successSufix": " imported",
+	"errorSufix": "not imported",
+	"errorSuggestion": "See below form more details"
+}

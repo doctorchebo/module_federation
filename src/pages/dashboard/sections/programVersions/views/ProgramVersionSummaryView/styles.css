@@ -1,0 +1,31 @@
+.evaluation-summary .loader.ui.segment {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	pointer-events: all;
+}
+
+.evaluation-summary .evaluation-button {
+	position: absolute;
+	right: 10px;
+	float: right;
+}
+
+.evaluation-columns.ui.grid {
+	margin-top: 10px;
+}
+
+.ui.grid .aligned.row > .column {
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--text-header-color);
+}
+
+.evaluation-summary .empty-content {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20%;
+	width: 100%;
+	height: 100%;
+}

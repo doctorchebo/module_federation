@@ -1,0 +1,11 @@
+{
+    "brand": "https://i.ibb.co/6FZD4qF/New-Project-32.png",
+    "welcome": "Welcome",
+    "account": "Dont have an account? Join us",
+    "form": {
+        "userField": "Type your email",
+        "passwordField": "Type your password",
+        "button": "Log in"
+    },
+    "forgotPassword": "Forgot password?"
+}

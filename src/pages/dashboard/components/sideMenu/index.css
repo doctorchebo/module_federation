@@ -1,0 +1,85 @@
+.side-menu-main {
+	display: flex;
+	min-height: 100vh;
+}
+
+.side-menu-none,
+.side-sidebar-main .ui.vertical.menu {
+	width: 310px;
+	overflow-y: auto;
+}
+
+.side-menu-content {
+	padding: 1.5rem;
+	padding-top: 4.7em;
+	position: relative;
+	background-color: var(--bg-first-color);
+	width: calc(100% - 310px);
+}
+
+.side-menu-margin-top {
+	margin-top: 50px;
+}
+
+.side-menu-margin {
+	margin-top: 60px;
+}
+
+/* Logo sidebar fundacion jala */
+.jala-logo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.jala-logo svg {
+	width: 150px;
+	height: 55px;
+}
+
+/* Sidebar Menu Styles */
+.side-sidebar-main .ui.vertical.menu .item {
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+/* Semantic ui use important, there isn't other option */
+.side-sidebar-main .ui.vertical.menu .item.active {
+	color: var(--primary-color) !important;
+	background-color: var(--bg-primary-color);
+}
+
+.side-sidebar-main .ui.vertical.menu .item.active > div::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 5px;
+	height: 100%;
+	background-color: var(--primary-color);
+}
+
+.side-sidebar-main .ui.vertical.menu .item:nth-child(3) {
+	margin-top: 40px;
+}
+
+.side-sidebar-main .ui.secondary.vertical.menu > .item {
+	margin-bottom: 0;
+}
+
+/* class to submenu item */
+.sub-menu-item {
+	text-align: right !important;
+	font-size: 1rem !important;
+	padding: 0 0 0 9rem !important;
+	margin: 0 !important;
+	height: 2.7rem !important;
+}
+
+.side-bar-overflow {
+	overflow: auto;
+}

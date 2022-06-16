@@ -1,0 +1,41 @@
+.scholar-card {
+	margin-top: 2rem;
+}
+
+.ui.card .content img {
+	margin: 0;
+	margin-right: 10px;
+}
+
+.scholar-card .ui.card {
+	font-size: 12px;
+	font-family: var(--text-font-family), sans-serif;
+	width: 100%;
+	text-align: left;
+}
+
+.scholar-card .ui.card > .content > .header {
+	font-family: var(--text-font-family), sans-serif;
+	margin-bottom: 0%;
+	margin-left: 50px;
+}
+
+.scholar-card .ui.card .active {
+	color: var(--actived-light-color);
+	border-color: var(--actived-dark-color);
+}
+
+.scholar-card .ui.card .complete {
+	color: var(--completed-light-color);
+	border-color: var(--completed-light-color);
+}
+
+.scholar-card .ui.card .inactive {
+	color: var(--inactive-light-color);
+	border-color: var(--inactive-light-color);
+}
+
+.scholar-card .ui.card .onhold {
+	color: var(--onhold-light-color);
+	border-color: var(--onhold-light-color);
+}

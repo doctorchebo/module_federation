@@ -1,0 +1,14 @@
+.ui.card.content-widgets {
+	width: 100%;
+}
+
+.ui.card > .content.summary-card-content {
+	padding: 30px 30px 0 30px;
+}
+
+.ui.card > .content > .header:not(.ui),
+.ui.card > .content.summary-card-content > .header:not(.ui) {
+	color: var(--text-header-color);
+	font-size: 1.1rem;
+	font-weight: 300;
+}

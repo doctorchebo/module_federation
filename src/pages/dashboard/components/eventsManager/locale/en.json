@@ -1,0 +1,183 @@
+{
+	"any": {
+		"name": "Clear",
+		"value": ""
+	},
+	"errorMessagesSubject": {
+		"grade": {
+			"required": "Grade is required"
+		},
+		"comment": {
+			"required": "Comment is required",
+			"minLength": "Comment must have at least %s characters",
+			"maxLength": "Comment must not have more than %s characters"
+		}
+	},
+	"subjectForm": {
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"fields": {
+			"grade": {
+				"label": "Grade",
+				"placeholder": "Choose a grade"
+			},
+			"comment": {
+				"label": "Comment",
+				"placeholder": "Write something...",
+				"value": "logro"
+			}
+		},
+		"create": {
+			"title": "New evaluations for %s",
+			"description": "Get started by filling in the information below to create your new evaluation.",
+			"type": "create"
+		},
+		"update": {
+			"title": "Edit evaluation for %s",
+			"description": "Modify the information below to edit your evaluation.",
+			"type": "update"
+		},
+		"save": "Save",
+		"cancel": "Cancel"
+	},
+	"bulkEvaluation": {
+		"comment": {
+			"minLength": 10,
+			"initialValue": "<ul><li><span style='color: rgba(0,0,0,0.9);background-color: rgb(255,255,255);font-size: 14px;'>Strengths.</span></li><li><span style='color:rgba(0,0,0,0.9);background-color: rgb(255,255,255);font-size: 14px;'>To improve.</span></li><li><span style='color: rgba(0,0,0,0.9);background-color:rgb(255,255,255);font-size: 14px;'>Would you like to work with him/her?</span>&nbsp;</li></ul><p></p>"
+		}
+	},
+	"statusErrorMessages": {
+		"statusType": {
+			"required": "Status type is required"
+		},
+		"description": {
+			"required": "Comment is required",
+			"minLength": "Title must have at least %s characters",
+			"maxLength": "Title must not have more than %s characters"
+		}
+	},
+
+	"errorMessages": {
+		"eventType": {
+			"required": "Event type is required"
+		},
+		"stage": {
+			"required": "Stage is required"
+		},
+		"subject": {
+			"required": "Subject is required"
+		},
+		"title": {
+			"required": "Title is required",
+			"minLength": "Title must have at least %s characters",
+			"maxLength": "Title must not have more than %s characters"
+		},
+		"description": {
+			"required": "Description is required",
+			"minLength": "Description must have at least %s characters",
+			"maxLength": "Description must not have more than %s characters"
+		}
+	},
+	"eventForm": {
+		"create": {
+			"title": "New event for %s",
+			"description": "Get started by filling in the information below to create your new event.",
+			"type": "create"
+		},
+		"update": {
+			"title": "Edit event for %s",
+			"description": "Modify the information below to edit your event.",
+			"type": "update"
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"fields": {
+			"notifyTo": {
+				"label": "Notify to",
+				"placeholder": "Type username"
+			},
+			"eventType": {
+				"label": "Event type",
+				"placeholder": "Choose a event type"
+			},
+			"stage": {
+				"label": "Stage",
+				"placeholder": "Choose a stage"
+			},
+			"subject": {
+				"label": "Subject",
+				"placeholder": "Choose a subject"
+			},
+			"title": {
+				"label": "Title",
+				"placeholder": "My title"
+			},
+			"description": {
+				"label": "Description",
+				"placeholder": "Write something..."
+			}
+		},
+		"save": "Save",
+		"cancel": "Cancel"
+	},
+	"statusForm": {
+		"update": {
+			"title": "Update status for %s",
+			"description": "Modify the information below to update the status of the scholar."
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"fields": {
+			"status": {
+				"actualStatus": "Actual status:",
+				"label": "Status",
+				"placeholder": "Status"
+			},
+			"description": {
+				"label": "Comment",
+				"placeholder": "Write something..."
+			}
+		},
+		"save": "Save",
+		"cancel": "Cancel"
+	},
+	"textAddEventIn": "added an event in",
+
+	"event": {
+		"title": "Events",
+		"btnName": "Add Event"
+	},
+	"attachment": "Upload attachment",
+	"createSuccess": "Created Successfully",
+	"updateSuccess": "Updated Successfully",
+	"updated": "Edited",
+	"filters": {
+		"types": {
+			"name": "Types",
+			"key": "eventTypeId"
+		},
+		"authors": {
+			"name": "Authors",
+			"key": "UserId"
+		},
+		"stages": {
+			"name": "Stages",
+			"key": "subject.stage.id"
+		},
+		"subjects": {
+			"name": "Subjects",
+			"key": "subject.name"
+		}
+	},
+	"firstPage": 1,
+	"notificationType": {
+		"event": "EVENT_NOTIFICATION"
+	},
+	"tooltip": {
+		"edit": "Edit",
+		"details": "View Details"
+	}
+}

@@ -1,0 +1,36 @@
+.complete-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.base-page {
+	width: 25%;
+	height: auto;
+	background-color: var(--bg-primary-color);
+	border-radius: 0.5%;
+	padding: 6px;
+}
+
+.align-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.body-generic {
+	margin: 8% 15%;
+}
+
+#home-button {
+	background: var(--button);
+	color: var(--text-margin);
+}
+
+#submit-button {
+	width: -webkit-fill-available;
+	background: var(--button);
+	color: var(--text-margin);
+}

@@ -1,0 +1,196 @@
+[
+	{
+		"id": "485f2967-539a-40cf-999d-00320590464a",
+		"name": "Admin",
+		"actions": [
+			{
+				"id": {
+					"roleId": "485f2967-539a-40cf-999d-00320590464a",
+					"permissionId": "9da313ce-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da313ce-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-evaluation",
+					"description": "This functionality allow us to access to Scholar-evaluation"
+				}
+			},
+			{
+				"id": {
+					"roleId": "485f2967-539a-40cf-999d-00320590464a",
+					"permissionId": "9da317ac-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da317ac-fe2d-11eb-9a03-0242ac130003",
+					"name": "logs",
+					"description": "This functionality allow us to access to logs"
+				}
+			},
+			{
+				"id": {
+					"roleId": "485f2967-539a-40cf-999d-00320590464a",
+					"permissionId": "9da315a4-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da315a4-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-events",
+					"description": "This functionality allow us to access to Scholar-events"
+				}
+			},
+			{
+				"id": {
+					"roleId": "485f2967-539a-40cf-999d-00320590464a",
+					"permissionId": "9da3166c-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da3166c-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-status",
+					"description": "This functionality allow us to access to Scholar-status"
+				}
+			},
+			{
+				"id": {
+					"roleId": "485f2967-539a-40cf-999d-00320590464a",
+					"permissionId": "9da2b848-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da2b848-fe2d-11eb-9a03-0242ac130003",
+					"name": "Programs",
+					"description": "This functionality allow us to access to programs"
+				}
+			},
+			{
+				"id": {
+					"roleId": "485f2967-539a-40cf-999d-00320590464a",
+					"permissionId": "9da31234-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da31234-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-profile",
+					"description": "This functionality allow us to access to Scholar-profile"
+				}
+			}
+		],
+		"description": "description upd"
+	},
+	{
+		"id": "bb5da46f-36fd-4d79-aba0-43b4e241db63",
+		"name": "Admin",
+		"actions": [
+			{
+				"id": {
+					"roleId": "bb5da46f-36fd-4d79-aba0-43b4e241db63",
+					"permissionId": "9da313ce-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da313ce-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-evaluation",
+					"description": "This functionality allow us to access to Scholar-evaluation"
+				}
+			},
+			{
+				"id": {
+					"roleId": "bb5da46f-36fd-4d79-aba0-43b4e241db63",
+					"permissionId": "9da317ac-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da317ac-fe2d-11eb-9a03-0242ac130003",
+					"name": "logs",
+					"description": "This functionality allow us to access to logs"
+				}
+			},
+			{
+				"id": {
+					"roleId": "bb5da46f-36fd-4d79-aba0-43b4e241db63",
+					"permissionId": "9da315a4-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da315a4-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-events",
+					"description": "This functionality allow us to access to Scholar-events"
+				}
+			},
+			{
+				"id": {
+					"roleId": "bb5da46f-36fd-4d79-aba0-43b4e241db63",
+					"permissionId": "9da3166c-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da3166c-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-status",
+					"description": "This functionality allow us to access to Scholar-status"
+				}
+			},
+			{
+				"id": {
+					"roleId": "bb5da46f-36fd-4d79-aba0-43b4e241db63",
+					"permissionId": "9da2b848-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da2b848-fe2d-11eb-9a03-0242ac130003",
+					"name": "Programs",
+					"description": "This functionality allow us to access to programs"
+				}
+			},
+			{
+				"id": {
+					"roleId": "bb5da46f-36fd-4d79-aba0-43b4e241db63",
+					"permissionId": "9da31234-fe2d-11eb-9a03-0242ac130003"
+				},
+				"canView": true,
+				"canAdd": true,
+				"canEdit": true,
+				"canDelete": true,
+				"permission": {
+					"id": "9da31234-fe2d-11eb-9a03-0242ac130003",
+					"name": "Scholar-profile",
+					"description": "This functionality allow us to access to Scholar-profile"
+				}
+			}
+		],
+		"description": "description upd"
+	}
+]

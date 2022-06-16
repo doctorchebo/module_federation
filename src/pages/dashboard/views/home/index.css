@@ -1,0 +1,14 @@
+.home .container {
+	margin: auto;
+}
+
+.home .container .title {
+	color: var(--info-color);
+	font-size: 18px;
+	font-weight: bold;
+	margin: 24px;
+}
+.home .container .image {
+	margin: auto;
+	right: -18px;
+}
