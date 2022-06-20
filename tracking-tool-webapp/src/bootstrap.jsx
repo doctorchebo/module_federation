@@ -8,10 +8,13 @@ import { SubjectDetailsDataProvider } from 'pages/dashboard/sections/subjects/co
 import { Provider } from 'react-redux';
 import configureStore from './store/store';
 import './theme/index.css';
+import { createRoot } from 'react-dom/client';
 
 const store = configureStore();
 
-ReactDOM.render(
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(
 	<Provider store={store}>
 		<ApplicationDataProvider>
 			<SubjectDetailsDataProvider>
@@ -22,6 +25,5 @@ ReactDOM.render(
 				</BrowserRouter>
 			</SubjectDetailsDataProvider>
 		</ApplicationDataProvider>
-	</Provider>,
-	document.getElementById('root')
+	</Provider>
 );
