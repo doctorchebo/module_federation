@@ -1,0 +1,97 @@
+:root {
+	--background-page: #d1d1d1;
+	--background-login: #48494a;
+	--button: #006277;
+	--button-hover: #1687a7;
+	--text-margin: #fff;
+	--forgot-password-hover: #84c8fb;
+}
+
+.login-container {
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	background-color: var(--background-page);
+}
+
+.login {
+	margin-bottom: 0;
+	background-image: url('../../assets/img/background-login.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 70%;
+	height: 70%;
+	position: relative;
+}
+
+.login .ui.top.aligned.grid {
+	margin: 0;
+}
+
+.login-container .login .six.wide.column.login-form {
+	background: var(--background-login);
+	height: 70vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.login-container .login .login-form .header {
+	color: var(--text-margin);
+	text-align: center;
+}
+
+.login-container .login .login-form .ui.button {
+	background: var(--button);
+	color: var(--text-margin);
+	margin-top: 0.3em;
+}
+
+.login-container .login .login-form .reset-password-link {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: underline;
+	color: var(--rating-color);
+}
+
+.login-container .login .login-form .reset-password-link:hover {
+	color: var(--forgot-password-hover);
+}
+
+.login-container .login .login-form .ui.button:hover {
+	background: var(--button-hover);
+	color: var(--text-margin);
+}
+
+.login-container .login .login-form .form-data {
+	width: 80%;
+}
+
+.login-container .login .login-form .ui.input input {
+	border: solid 2px var(--text-margin);
+}
+
+.login-container .login .login-form .ui.input {
+	margin-top: 2em;
+}
+
+.login-container .login img.ui.image {
+	max-width: 20%;
+	margin-left: 16px;
+}
+
+.login-container .personal-loading.ui.segment {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	pointer-events: all;
+}
+
+.login-container .personal-loading.ui.segment::before {
+	background: rgba(0, 0, 0, 0.65);
+}

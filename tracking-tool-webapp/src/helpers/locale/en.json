@@ -1,0 +1,15 @@
+{
+	"emailValidator":{
+		"error": "Email format incorrect"
+	},
+	"passwordValidator":{
+		"lengthError": "The length is less than 10 characters.",
+		"lowercase": "The password requires one lowercase character.",
+		"uppercase": "The password requires one uppercase character.",
+		"symbolError": "The password needs a special character.",
+		"number": "The password needs a number."
+	},
+	"codeValidator":{
+		"error": "The length is less than 6 characters."
+	}
+}

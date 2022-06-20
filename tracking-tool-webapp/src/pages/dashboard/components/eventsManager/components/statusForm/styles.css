@@ -1,0 +1,32 @@
+.event-header {
+	background-color: var(--bg-primary-color);
+	padding: 28px 40px;
+	color: var(--text-second-header-color);
+	font-size: 14px;
+}
+
+.event-header .title {
+	color: var(--primary-color);
+	font-size: 18px;
+}
+.event-header .description {
+	margin-top: -12px;
+}
+
+.btn-group.ui.buttons .button:first-child {
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.btn-group.ui.buttons .button:last-child {
+	background-color: var(--primary-color);
+	border-radius: 0;
+}
+
+.ui.form textarea {
+	max-height: 160px;
+}
+
+.form-label {
+	display: flex;
+}

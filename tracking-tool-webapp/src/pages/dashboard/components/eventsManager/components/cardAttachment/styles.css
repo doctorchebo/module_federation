@@ -1,0 +1,26 @@
+.card-attachment {
+	margin-top: 2rem;
+}
+
+.card-attachment .ui.card .card-icon.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-attachment .ui.card.card-container {
+	width: 100%;
+}
+
+.card-attachment .ui.card .card-icon .content-header {
+	display: flex;
+	align-items: center;
+}
+
+.card-attachment .ui.card .card-icon > .content-header {
+	font-size: 14px;
+}
+
+.card-attachment .ui.card .card-icon .content-header .icon {
+	width: 40px;
+	margin-right: 15px;
+}

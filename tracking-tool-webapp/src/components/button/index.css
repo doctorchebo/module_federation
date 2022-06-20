@@ -1,0 +1,20 @@
+.ui.button.custom-button {
+	border-radius: 0;
+}
+
+.ui.basic.button.custom-button {
+	box-shadow: 0 0 0 0;
+	font-weight: bold;
+}
+
+.custom-button .button-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.custom-button .icon {
+	margin-left: 4px;
+	height: 18px;
+	width: 18px;
+}

@@ -1,0 +1,15 @@
+{
+	"title": "Roles",
+	"bulkEditButton": "Bulk Edit Roles",
+	"add": "Add Role",
+	"createSuccess": "Created Successfully",
+	"updateSuccess": "Role updated successfully",
+	"deleteSuccess": "Role deleted successfully",
+	"updateBulkSuccess": "Bulk update successfully",
+	"updateBulkFailed": "Bulk update failed",
+	"updateFailed": "Role update failed",
+	"confirmModal": {
+		"header": "Delete Role",
+		"content": "Are you sure you want to remove the %s role?"
+	}
+}

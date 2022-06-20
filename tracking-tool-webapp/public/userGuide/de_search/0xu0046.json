@@ -1,0 +1,22 @@
+[
+	{ "s": "FEEDBACK", "p": [14] },
+	{ "s": "FIELD", "p": [8, 4, 22] },
+	{ "s": "FIELDS", "p": [8] },
+	{ "s": "FILL", "p": [19, 4] },
+	{ "s": "FILLED", "p": [22] },
+	{ "s": "FILTER", "p": [8, 18] },
+	{ "s": "FILTERING", "p": [8, 18] },
+	{ "s": "FILTERS", "p": [21, 8] },
+	{ "s": "FINALLY", "p": [4] },
+	{ "s": "FIND", "p": [18] },
+	{ "s": "FINISH", "p": [25, 24, 19] },
+	{ "s": "FINISHED", "p": [11] },
+	{ "s": "FOLLOWING", "p": [4, 2] },
+	{ "s": "FOR", "p": [25, 24, 14, 4, 2] },
+	{ "s": "FORGOT", "p": [3] },
+	{ "s": "FORM", "p": [26, 22, 18] },
+	{ "s": "FORMATION", "p": [2] },
+	{ "s": "FOUNDATION", "p": [2, 1] },
+	{ "s": "FROM", "p": [26, 14, 8, 2] },
+	{ "s": "FUNDACION", "p": [26] }
+]

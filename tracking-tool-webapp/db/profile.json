@@ -1,0 +1,125 @@
+{
+  "id": "c7a31196-87dd-4991-b04b-0e8faaea6ed2",
+  "firstName": "Fernando",
+  "lastName": "Maceda",
+  "email": "f@m.com",
+  "ci": 123456789,
+  "issued": "LP",
+  "phoneNumber": 789456123,
+  "currentCity": "La Paz",
+  "roles": [
+    {
+      "id": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+      "name": "Administrator",
+      "description": "Administrator role",
+      "deleted": false,
+      "actions": [
+        {
+          "id": {
+            "roleId": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+            "permissionId": "9da30f28-fe2d-11eb-9a03-0242ac130003"
+          },
+          "canView": true,
+          "canAdd": true,
+          "canEdit": true,
+          "canDelete": true,
+          "permissions": {
+            "id": "9da30f28-fe2d-11eb-9a03-0242ac130003",
+            "name": "Subject",
+            "description": "This functionality allow us to access to Subject"
+          }
+        },
+        {
+          "id": {
+            "roleId": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+            "permissionId": "9da2b848-fe2d-11eb-9a03-0242ac130003"
+          },
+          "canView": true,
+          "canAdd": true,
+          "canEdit": true,
+          "canDelete": true,
+          "permissions": {
+            "id": "9da2b848-fe2d-11eb-9a03-0242ac130003",
+            "name": "Programs",
+            "description": "This functionality allow us to access to programs"
+          }
+        },
+        {
+          "id": {
+            "roleId": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+            "permissionId": "9da313ce-fe2d-11eb-9a03-0242ac130003"
+          },
+          "canView": true,
+          "canAdd": true,
+          "canEdit": true,
+          "canDelete": true,
+          "permissions": {
+            "id": "9da313ce-fe2d-11eb-9a03-0242ac130003",
+            "name": "Scholar-evaluation",
+            "description": "This functionality allow us to access to Scholar-evaluation"
+          }
+        },
+        {
+          "id": {
+            "roleId": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+            "permissionId": "9da31234-fe2d-11eb-9a03-0242ac130003"
+          },
+          "canView": true,
+          "canAdd": true,
+          "canEdit": true,
+          "canDelete": true,
+          "permissions": {
+            "id": "9da31234-fe2d-11eb-9a03-0242ac130003",
+            "name": "Scholar-profile",
+            "description": "This functionality allow us to access to Scholar-profile"
+          }
+        },
+        {
+          "id": {
+            "roleId": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+            "permissionId": "9da317ac-fe2d-11eb-9a03-0242ac130003"
+          },
+          "canView": true,
+          "canAdd": true,
+          "canEdit": true,
+          "canDelete": true,
+          "permissions": {
+            "id": "9da317ac-fe2d-11eb-9a03-0242ac130003",
+            "name": "logs",
+            "description": "This functionality allow us to access to logs"
+          }
+        },
+        {
+          "id": {
+            "roleId": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+            "permissionId": "9da315a4-fe2d-11eb-9a03-0242ac130003"
+          },
+          "canView": true,
+          "canAdd": true,
+          "canEdit": true,
+          "canDelete": true,
+          "permissions": {
+            "id": "9da315a4-fe2d-11eb-9a03-0242ac130003",
+            "name": "Scholar-events",
+            "description": "This functionality allow us to access to Scholar-events"
+          }
+        },
+        {
+          "id": {
+            "roleId": "6026f8d5-7ffe-4ca1-a4a1-628f2cfa1cf7",
+            "permissionId": "9da3166c-fe2d-11eb-9a03-0242ac130003"
+          },
+          "canView": true,
+          "canAdd": true,
+          "canEdit": true,
+          "canDelete": true,
+          "permissions": {
+            "id": "9da3166c-fe2d-11eb-9a03-0242ac130003",
+            "name": "Scholar-status",
+            "description": "This functionality allow us to access to Scholar-status"
+          }
+        }
+      ]
+    }
+  ]
+}

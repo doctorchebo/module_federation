@@ -1,0 +1,13 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,jsx}]
+charset = utf-8
+indent_style = tab
+
+[*.{json,css,sass,html}]
+charset = utf-8
+indent_style = tab

@@ -1,0 +1,26 @@
+{
+	"dashboard": "Dashboard",
+	"contentLoader": "Loading",
+	"searchPlaceholder":"Search...",
+	"user": "User",
+    "scholar": "Scholar",
+    "programVersion": "ProgramVersion",
+	"footer": [
+		{
+			"headerContent": "Team A",
+			"bodyContent": ["All pain No gain"]
+		},
+		{
+			"headerContent": "Contact us",
+			"bodyContent": [
+				"South American Headquarters - Av Melchor Pérez de Olguín 2643",
+				"75954381",
+				"Cochabamba, Bolivia"
+			]
+		},
+		{
+			"headerContent": "Social media",
+			"socialIcons": ["twitter", "instagram", "facebook"]
+		}
+	]
+}

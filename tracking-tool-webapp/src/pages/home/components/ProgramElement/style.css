@@ -1,0 +1,14 @@
+.program_container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.program_container_img {
+	margin-top: 3em;
+}
+
+.program_container_text {
+	font-size: '2em';
+	margin-top: '1em';
+}

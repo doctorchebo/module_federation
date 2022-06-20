@@ -1,0 +1,55 @@
+{
+	"verifyEmailPage": {
+		"title": "Verify Your Email",
+		"verifyEmail": {
+			"errorMessages": {
+				"email": {
+					"format": "Email format incorrect"
+				}
+			},
+			"fields": {
+				"email": {
+					"label": "Email",
+					"placeholder": "Type your email",
+					"error": "Check Email errors"
+				}
+			},
+			"save": "Check Email"
+		}
+	},
+	"resetPasswordPage": {
+		"title": "Reset Your Password",
+		"resetPassword": {
+			"errorMessages": {
+				"code": {
+					"format": "Code must have at least %s characters"
+				},
+				"newPassword": {
+					"format": "Password format incorrect"
+				},
+				"confirmPassword": {
+					"format": " Confirm Password format incorrect",
+					"match": "The Passwords do not match"
+				}
+			},
+			"fields": {
+				"code": {
+					"label": "Code",
+					"placeholder": "Type the sent code",
+					"error": "Code errors"
+				},
+				"newPassword": {
+					"label": "New Password",
+					"placeholder": "Type your new password",
+					"error": "Password errors"
+				},
+				"confirmPassword": {
+					"label": "Confirm Password",
+					"placeholder": "Confirm the password",
+					"error": "Password errors"
+				}
+			},
+			"save": "Reset Password"
+		}
+	}
+}

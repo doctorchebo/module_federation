@@ -1,0 +1,23 @@
+.approval-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+}
+
+.ui.list > .item .header.meta {
+	margin-left: 12px;
+	color: var(--table-color);
+}
+
+.approval-check-icon {
+	width: 24px;
+	margin-right: 12px;
+	color: var(--border-color);
+}
+
+.approval-check-icon.checked {
+	width: 24px;
+	margin-right: 12px;
+	color: var(--success-color);
+}

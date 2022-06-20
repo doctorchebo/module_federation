@@ -1,0 +1,21 @@
+[
+	{ "s": "DASHBOARD", "p": [2] },
+	{ "s": "DATA", "p": [4, 22, 8] },
+	{ "s": "DATE", "p": [11, 7] },
+	{ "s": "DEATAILS", "p": [19] },
+	{ "s": "DESCENDING", "p": [10] },
+	{ "s": "DESCRIBES", "p": [7] },
+	{ "s": "DESCRIPTION", "p": [11, 10, 24, 19, 7, 25, 18] },
+	{ "s": "DETAILS", "p": [12, 14, 10, 4] },
+	{ "s": "DETAILS-PROFILE", "p": [10] },
+	{ "s": "DID", "p": [4] },
+	{ "s": "DIFFERENT", "p": [14] },
+	{ "s": "DISPLAY", "p": [8] },
+	{ "s": "DISPLAYS", "p": [2] },
+	{ "s": "DO", "p": [10] },
+	{ "s": "DOCUMENTATION", "p": [23] },
+	{ "s": "DOCUMENTS", "p": [23, 18] },
+	{ "s": "DON", "p": [6] },
+	{ "s": "DON'T", "p": [6] },
+	{ "s": "DURATION", "p": [11] }
+]

@@ -1,0 +1,188 @@
+{
+	"any": {
+		"name": "All",
+		"value": ""
+	},
+	"filter": "Filter by ",
+	"coordinator": {
+		"name": "Coordinator",
+		"key": "UserId"
+	},
+	"trainer": {
+		"name": "Trainer",
+		"key": "User.Email"
+	},
+	"program": {
+		"name": "Program",
+		"key": "Program.Name"
+	},
+	"programVersion": "ProgramVersion",
+	"status": "Status",
+	"title": "Programs",
+	"selectStage": "Select Stage",
+	"fileTypes": ".json",
+	"loading": "Loading",
+	"headers": [],
+	"rows": [],
+	"actionMenu": {
+		"evaluationReport": "Send Evaluation Reports",
+		"subjectEvaluationReport": "Send Subject Evaluation Reports",
+		"formProgramVersion": "Update Program Version",
+		"evaluationSummary": "Evaluation Summary",
+		"candidates": "Candidates",
+		"subjectEvaluation": "View subject evaluations"
+	},
+	"confirmModal": {
+		"header": "Send evaluation reports",
+		"content": "Are you sure you want to send all the evaluations for the stage"
+	},
+	"reportSuccess": {
+		"title": "Evaluation reports were sent successfully.",
+		"description": "These scholars received an email with their Evaluation."
+	},
+	"reportFail": {
+		"title": "Could not send Evaluation Reports.",
+		"description": "These Scholars still have a pending evaluation."
+	},
+	"reportError": {
+		"title": "Something Happened.",
+		"list": [
+			"Check if the Program Version has a Valid Stage.",
+			"Check if the Stage can be Evaluated.",
+			"If this persists, please talk with the administrator"
+		]
+	},
+	"confirmModalSubject": {
+        "header": "Send evaluation reports",
+        "content": "Are you sure you want to send all the evaluations by subject to all"
+    },
+    "reportSubjectError": {
+        "title": "Something Happened.",
+        "list": [
+            "Check if the Stage has a Valid Program Version.",
+            "Check if the Subject has a Valid Stage",
+            "If this persists, please talk with the administrator"
+        ]
+    },
+	"statusErrorMessages": {
+		"statusType": {
+			"required": "Status type is required"
+		},
+		"description": {
+			"required": "Comment is required",
+			"minLength": "Title must have at least %s characters",
+			"maxLength": "Title must not have more than %s characters"
+		}
+	},
+
+	"errorMessages": {
+		"version": {
+			"required": "Version is required",
+			"minLength": "Version must have at least %s characters",
+			"maxLength": "Version must not have more than %s characters"
+		},
+		"stage": {
+			"required": "Stage is required",
+			"minLength": "Stage must have at least %s characters",
+			"maxLength": "Stage must not have more than %s characters"
+		},
+		"subject": {
+			"required": "Subject is required",
+			"minLength": "Subject must have at least %s characters",
+			"maxLength": "Subject must not have more than %s characters"
+		},
+		"title": {
+			"required": "Title is required",
+			"minLength": "Title must have at least %s characters",
+			"maxLength": "Title must not have more than %s characters"
+		},
+		"description": {
+			"required": "Description is required",
+			"minLength": "Description must have at least %s characters",
+			"maxLength": "Description must not have more than %s characters"
+		}
+	},
+	"eventForm": {
+		"create": {
+			"title": "Update program version for %s",
+			"description": "Get started by filling in the information below to update your Program Version."
+		},
+		"update": {
+			"title": "Edit event for %s",
+			"description": "Modify the information below to edit your event."
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"fields": {
+			"stage": {
+				"label": "Stage",
+				"placeholder": "Choose a stage"
+			},
+			"subject": {
+				"label": "Subject",
+				"placeholder": "Choose a subject"
+			},
+			"trainer": {
+				"label": "Trainer",
+				"placeholder": "Choose a trainer"
+			},
+			"title": {
+				"label": "Title",
+				"placeholder": "My title"
+			},
+			"description": {
+				"label": "Description",
+				"placeholder": "Write something..."
+			}
+		},
+		"save": "Save",
+		"cancel": "Cancel"
+	},
+	"statusForm": {
+		"update": {
+			"title": "Update status for %s",
+			"description": "Modify the information below to update the status of the scholar."
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"fields": {
+			"status": {
+				"actualStatus": "Actual status:",
+				"label": "Status",
+				"placeholder": "Status"
+			},
+			"description": {
+				"label": "Comment",
+				"placeholder": "Write something..."
+			}
+		},
+		"save": "Save",
+		"cancel": "Cancel"
+	},
+	"textAddEventIn": "added an event in",
+
+	"event": {
+		"title": "Status",
+		"btnName": "Add status"
+	},
+	"createSuccess": "Created Successfully",
+	"updateSuccess": "Updated Successfully",
+	"updated": "Edited",
+	"EvaluationColumns": {
+		"Pending": "Pending",
+		"Approved": "Approved",
+		"Failed": "Failed",
+		"Empty": "No Scholars Here"
+	},
+	"PromoteCandidates": {
+		"candidatesUpdatedSuccesslly": "Candidates Updated Successfully",
+		"candidatesUpdateFailed": "Candidates Update failed"
+	},
+	"Activities": {
+		"activities_not_found": "activities_not_found",
+		"candidates_not_found": "candidates_not_found"
+	},
+	"stage": "Stage"
+}

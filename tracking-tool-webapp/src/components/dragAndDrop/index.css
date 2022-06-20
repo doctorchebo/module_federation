@@ -1,0 +1,31 @@
+.dropzone-whole .text-center {
+	background-color: #fff;
+	text-align: center;
+	padding: 48px 0 48px 0;
+	border-style: dashed;
+	border-radius: 4px;
+	border-width: 2px;
+	border-color: #cecece;
+	align-self: center;
+}
+
+.dropzone-whole .text-center .file-types {
+	font-size: 1.1em;
+	font-weight: 900;
+	color: #808080;
+	padding-top: 16px;
+}
+
+.dropzone-whole .text-center .dropzone-content {
+	font-size: 1em;
+	font-weight: 500;
+	color: #808080;
+}
+
+.dropzone-whole .text-center .dropzone-link {
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	text-decoration: underline;
+	color: #33a5f8;
+}

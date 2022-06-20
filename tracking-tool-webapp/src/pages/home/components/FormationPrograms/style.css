@@ -1,0 +1,16 @@
+.formationPrograms_title {
+	font-size: 2em;
+}
+
+.ui.inverted.header.main-title.formationPrograms_title {
+	font-size: 2em;
+	margin-top: 4em;
+}
+
+.formationPrograms_section {
+	background-image: url('assets/img/formation_programs.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+}

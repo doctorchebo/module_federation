@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap');
+
+.uploadComponent {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.uploadComponent .back-btn {
+	opacity: 0.7;
+	height: 28px;
+	transform: translateX(12px);
+	padding: 0;
+}
+
+.uploadComponent .upload-btn {
+	float: right;
+}
+
+.uploadComponent .upload-card .title {
+	margin-top: 5px;
+	font-size: 24px;
+	font-weight: lighter;
+	padding-bottom: 12px;
+}
+
+.uploadComponent .upload-card .sub-title {
+	font-size: 16px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+	color: #71717a;
+}
+
+.dimmer {
+	opacity: 0.9;
+}
+.dimmer .progress {
+	width: 700px;
+	height: 25px;
+}
+
+.dimmer .ui.active.progress .bar::after {
+	animation: progress-active 1.4s ease-in-out infinite;
+	background: rgb(1, 1, 83);
+}
+
+.uploadComponent .upload-btn.ui.primary.button {
+	background-color: var(--primary-color);
+}
+.uploadComponent .upload-btn.ui.button {
+	background-color: var(--bg-third-color);
+}

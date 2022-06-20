@@ -1,0 +1,22 @@
+.evaluation-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 12px;
+}
+
+.evaluation-top .container {
+	color: var(--info-color);
+	font-size: 18px;
+}
+
+.evaluation-top .container .per {
+	font-weight: bold;
+	padding-right: 24px;
+}
+
+.evaluation-top .ui.selection.dropdown {
+	height: 38px;
+	min-height: 24px;
+	font-size: 14px;
+}

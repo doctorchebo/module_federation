@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/home/components/PageHeader Html structure should match snapshot 1`] = `
+<div
+  class="ui container header-container"
+>
+  <h2
+    class="ui inverted header main-title"
+  >
+    Applicants Tracker
+  </h2>
+  <h3
+    class="ui header sub-title"
+  >
+    An app for applicants in the Software Industry.
+  </h3>
+</div>
+`;

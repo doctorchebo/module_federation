@@ -1,0 +1,51 @@
+:root {
+	--notification-font-size-primary: 1.7rem;
+	--notification-font-size-secondary: 0.7rem;
+	--notification-badge-size: 20px;
+}
+
+/* NOTIFICATION ICON ON NAVBAR */
+
+.top-menu.ui.menu a.item {
+	font-size: var(--notification-font-size-primary);
+	cursor: auto;
+	margin: 0;
+}
+
+.top-menu.ui.menu a.item:hover {
+	background: none;
+}
+
+.top-menu .notification i.icon {
+	margin: 0;
+	color: var(--icon-primary-color);
+}
+
+.notification .ui.floating.label {
+	background: var(--primary-color);
+	color: var(--bg-third-color);
+	left: 70%;
+	top: 15%;
+}
+
+/* NOTIFICATION LIST ON SIDEBAR */
+
+.list {
+	padding: 0;
+}
+
+.list .ui.message {
+	cursor: pointer;
+}
+
+.list .ui.message:hover {
+	background: var(--button-hover-color);
+}
+
+.list .notification-item .content {
+	width: 85%;
+}
+
+.notification-item .content .description {
+	word-wrap: break-word;
+}

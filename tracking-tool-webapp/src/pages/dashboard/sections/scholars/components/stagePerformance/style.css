@@ -1,0 +1,68 @@
+.container-stage {
+	background-color: white;
+	flex-direction: column;
+	overflow: hidden;
+	transition: max-height 3s ease-out;
+	max-height: 1000px;
+}
+
+.container-stage-padding {
+	padding: 0;
+}
+
+.container-stage .title {
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 14px;
+}
+
+.container-stage .attribute {
+	display: flex;
+	margin-bottom: 34px;
+}
+
+.attribute .header {
+	margin-right: 14px;
+	margin-bottom: 0;
+	color: var(--primary-light-color);
+	font-size: 21px;
+}
+
+.attribute .content {
+	font-size: 21px;
+	line-height: 24px;
+	margin-bottom: 0;
+	border: 1px solid black;
+}
+
+.program {
+	display: flex;
+	flex-direction: column;
+}
+
+.program h2 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.stage-container-pointer {
+	cursor: pointer;
+}
+
+.program .header {
+	display: inline-block;
+	width: fit-content;
+	border-bottom: 1px solid var(--primary-light-color);
+	margin-bottom: 14px;
+}
+
+.program .header h2 {
+	color: var(--primary-light-color);
+	font-size: 1.5rem;
+}
+
+#test-z:hover ~ .container-stage {
+	max-height: 1000px;
+	transition: max-height 4s ease-in;
+}

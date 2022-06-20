@@ -1,0 +1,45 @@
+{
+	"tooltip": {
+		"edit": "Edit",
+		"deleted": "Delete"
+	},
+	"errorMessagesSubject": {
+		"grade": {
+			"required": "Grade is required"
+		},
+		"comment": {
+			"required": "Comment is required",
+			"minLength": "Comment must have at least %s characters",
+			"maxLength": "Comment must not have more than %s characters"
+		}
+	},
+	"subjectForm": {
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"fields": {
+			"grade": {
+				"label": "Grade",
+				"placeholder": "Choose a grade"
+			},
+			"comment": {
+				"label": "Comment",
+				"placeholder": "Write something...",
+				"value": "logro"
+			},
+			"posted": {
+				"label": "Published",
+				"placeholder": "My published state"
+			}
+		},
+		"save": "Save",
+		"cancel": "Cancel"
+	},
+	"confirmModalEditEvaluation":{
+		"header": "Post Evaluation",
+		"content": "Are you sure you want to post this evaluation?\nAfter this you will not be able to edit or delete"
+	},
+	"title": "Edit Evaluation",
+	"editTitle": "Edit Evaluation",
+	"historyTitle": "Evaluation History"
+}

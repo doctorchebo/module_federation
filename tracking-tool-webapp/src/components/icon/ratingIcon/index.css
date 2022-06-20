@@ -1,0 +1,12 @@
+.rating-icon .ui.tiny.progress .bar {
+	background-color: inherit;
+	color: inherit;
+	width: 32px;
+}
+
+.rating-icon .ui.tiny.progress {
+	background-color: var(--border-color);
+	color: inherit;
+	margin: 0;
+	width: 32px;
+}

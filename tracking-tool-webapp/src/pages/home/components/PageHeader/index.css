@@ -1,0 +1,35 @@
+.ui.container.header-container {
+	height: 80vh;
+}
+
+.ui.inverted.header.main-title {
+	font-size: 6em;
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 1.7em;
+	color: #fff;
+	overflow-y: scroll;
+	animation: burbujas 5s linear infinite;
+	height: auto;
+}
+
+.ui.header.sub-title {
+	font-size: 2.3em;
+	font-weight: normal;
+	margin-top: 0.2em;
+	color: rgb(66, 55, 55);
+}
+
+@keyframes burbujas {
+	0% {
+		bottom: 0;
+		opacity: 0;
+	}
+	50% {
+		opacity: 2;
+	}
+	100% {
+		bottom: 100vh;
+		opacity: 0;
+	}
+}

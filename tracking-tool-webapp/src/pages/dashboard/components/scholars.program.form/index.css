@@ -1,0 +1,15 @@
+.program-header {
+	background-color: var(--bg-primary-color);
+	padding: 28px 40px;
+	color: var(--text-second-header-color);
+	font-size: 14px;
+}
+
+.program-header .title {
+	color: var(--primary-color);
+	font-size: 18px;
+}
+
+.program-form {
+	padding: 40px;
+}

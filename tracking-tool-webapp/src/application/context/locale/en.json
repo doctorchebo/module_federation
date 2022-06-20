@@ -1,0 +1,11 @@
+{
+	"verifyEmail": {
+		"verifyingEMail": "Verifying Email.",
+		"emailSent": "Email Sent.",
+		"error": "Error Sending Email."
+	},
+	"changePassword": {
+		"passwordUpdated": "Password Updated.",
+		"error": "Error Changing Password."
+	}
+}

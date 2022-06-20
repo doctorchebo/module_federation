@@ -1,0 +1,121 @@
+{
+	"user": "User",
+	"criteria": "criteria",
+	"filter": "Filter by ",
+	"allRoles": "All roles",
+	"all": "all",
+	"empty": "empty",
+	"rolesLabel": "Roles",
+	"hyphen": "-",
+	"usersType": "users",
+	"updateUserForm": {
+		"update": {
+			"title": "Update user"
+		},
+		"errorMessages": {
+			"firstName": {
+				"required": "First name is required",
+				"minLength": "First name must have at least %s characters",
+				"maxLength": "First name must not have more than %s characters"
+			},
+			"lastName": {
+				"required": "Last name is required",
+				"minLength": "Last name must have at least %s characters",
+				"maxLength": "Last name must not have more than %s characters"
+			},
+			"email": {
+				"required": "Email is required",
+				"minLength": "Name must have at least %s characters",
+				"maxLength": "Name must not have more than %s characters",
+				"emailFormat": "Field must be an email"
+			},
+			"password": {
+				"required": "Password is required",
+				"minLength": "Password must have at least %s characters",
+				"maxLength": "Password must not have more than %s characters"
+			},
+			"ci": {
+				"required": "ci is required",
+				"minLength": "ci must have at least %s characters",
+				"maxLength": "ci must not have more than %s characters",
+				"onlyNumbers": "Phone number must contain only numbers"
+			},
+			"issued": {
+				"required": "Issued is required",
+				"minLength": "Issued must have at least %s characters",
+				"maxLength": "Issued must not have more than %s characters"
+			},
+			"phoneNumber": {
+				"required": "Phone number is required",
+				"format": "Field must be a phone number valid"
+			},
+			"currentCity": {
+				"required": "currentCity is required",
+				"minLength": "Current city must have at least %s characters",
+				"maxLength": "Current city must not have more than %s characters"
+			},
+			"role": {
+				"required": "Role is required",
+				"minLength": "Role must have at least %s characters",
+				"maxLength": "Role must not have more than %s characters"
+			}
+		},
+		"fields": {
+			"email": {
+				"label": "Email",
+				"placeholder": "User email"
+			},
+			"firstName": {
+				"label": "First Name",
+				"placeholder": "User first name"
+			},
+			"lastName": {
+				"label": "Last Name",
+				"placeholder": "User last name"
+			},
+			"ci": {
+				"label": "Ci",
+				"placeholder": "User identification number"
+			},
+			"issued": {
+				"label": "Issued",
+				"placeholder": "Select ci issue location"
+			},
+			"currentCity": {
+				"label": "Current city",
+				"placeholder": "Choose a city"
+			},
+			"phoneNumber": {
+				"label": "Phone Number",
+				"placeholder": "User phone number"
+			},
+			"role": {
+				"label": "Role",
+				"placeholder": "User role"
+			}
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"save": "Save",
+		"cancel": "Cancel",
+		"updateSuccess": "Updated Successfully",
+		"updateError": "Updated failed"
+	},
+	"pagination": {
+		"defaultPage": 1,
+		"defaultSize": 10,
+		"defaultSort": "firstName",
+		"defaultFilerOption": "roles"
+	},
+	"headers": [
+		"FirstName",
+		"LastName",
+		"Role",
+		"Email",
+		"PhoneNumber",
+		"CurrentCity",
+		"Ci",
+		"Actions"
+	]
+}

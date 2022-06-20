@@ -1,0 +1,31 @@
+.file-manager .dropzone-whole .text-center {
+	background-color: var(--bg-third-color);
+	text-align: center;
+	padding: 48px 0 48px 0;
+	border-style: dashed;
+	border-radius: 4px;
+	border-width: 2px;
+	border-color: var(--text-gray-light);
+	align-self: center;
+}
+
+.file-manager.dropzone-whole .text-center .file-types {
+	font-size: 1.1em;
+	font-weight: 900;
+	color: var(--text-gray-light);
+	padding-top: 16px;
+}
+
+.file-manager .dropzone-whole .text-center .dropzone-content {
+	font-size: 1em;
+	font-weight: 500;
+	color: var(--text-gray-light);
+}
+
+.file-manager.dropzone-whole .text-center .dropzone-link {
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	text-decoration: underline;
+	color: var(--rating-color);
+}

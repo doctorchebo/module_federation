@@ -1,0 +1,31 @@
+.ui.form .fields.skill-section {
+	display: block;
+}
+.ui.form .skill-header {
+	font-size: 16px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.ui.form .skill-header p {
+	margin-bottom: 0;
+}
+
+.rating-component {
+	margin: 0 10px;
+}
+
+.skill-section li {
+	padding: 8px;
+	color: var(--text-table-color);
+}
+
+.ui.checkbox {
+	min-width: auto !important;
+}
+.ui.styled.accordion {
+	width: auto !important;
+}

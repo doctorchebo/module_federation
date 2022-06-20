@@ -1,0 +1,71 @@
+.container-subject-evaluation {
+	padding: 5px 35px;
+}
+
+.container-form-evaluate {
+	padding: 0 35px 14px 35px;
+}
+.container-grade {
+	padding: 5px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	min-width: 40px;
+	background-color: var(--bg-primary-color);
+	color: var(--primary-light-color);
+}
+
+.u-padding-5 {
+	padding-top: 5px;
+}
+
+.container-footer {
+	display: flex;
+	justify-content: end;
+}
+
+.container-footer span {
+	color: var(--button-hover-color);
+	font-size: 1rem;
+}
+
+.card-icon .icon.disable-icon {
+	color: var(--text-header-color);
+	cursor: default;
+}
+
+.card-icon .icon.active-icon {
+	color: var(--text-table-color);
+}
+
+.rich-text-clamp {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	overflow: hidden;
+}
+
+.rich-text-show {
+	overflow: visible;
+	height: auto;
+}
+
+.container-comment {
+	transition: all 0.3s ease-out;
+}
+
+.container-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid var(--border-color);
+	margin-top: 10px;
+}
+
+.container-buttons .container-buttons-icon {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}

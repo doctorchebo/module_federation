@@ -1,0 +1,20 @@
+{
+	"title": "Subject evaluations",
+	"headers": ["All", "User", "email Address", "Phone Number", "City", "Version"],
+	
+	"forbidenRole": "Only coordinator is allowed to close an evaluation",
+	"somethingHappened": "Oops, Something Happened",
+	"successSaving": "Evaluation saved",
+	"errorLoadingApprovals": "Error loading approvals",
+	"event": "Events",
+	"program": "Enroll in Program",
+	"scholar": {
+		"title": "Scholar Profile",
+		"fullName": "Full name:"
+	},
+	"page": {
+		"loading": "Loading...",
+		"error": "Error"
+	},
+	"filter": "Filter by "
+}

@@ -1,0 +1,26 @@
+.scholar.information {
+	display: flex;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.scholar.information .picture {
+	width: 75px;
+	height: 75px;
+	color: var(--text-header-color);
+}
+
+.scholar.information .details {
+	display: grid;
+	padding-left: 25px;
+}
+
+.scholar.information .details .item {
+	color: var(--text-subheader-color);
+	font: normal normal normal 12px/17px Open Sans, sans-serif;
+}
+
+.scholar.information .details .item.name {
+	color: var(--text-header-color);
+	font: normal normal bold 16px/22px Open Sans, sans-serif;
+}

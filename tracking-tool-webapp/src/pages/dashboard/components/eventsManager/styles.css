@@ -1,0 +1,34 @@
+.event-list .add-event-btn.ui.button {
+	background-color: transparent;
+	padding: 0;
+	margin-top: 2rem;
+	color: var(--primary-color);
+	font-weight: normal;
+	font-size: var(--text-sub-header-size);
+}
+.events {
+	padding: 0;
+}
+
+.event-list .ui.button:not(.icon) > .icon:not(.button):not(.dropdown) {
+	margin: 0;
+}
+
+.event-list .ui.button i.icon {
+	padding-left: 0.5rem;
+}
+
+.event-list .ui.button:hover {
+	background-color: transparent;
+	color: var(--primary-light-color);
+}
+
+.event-list .ui.button:focus {
+	background-color: transparent;
+	color: var(--text-header-color);
+}
+
+.event-list .ui.button:active {
+	background-color: transparent;
+	color: var(--text-header-color);
+}

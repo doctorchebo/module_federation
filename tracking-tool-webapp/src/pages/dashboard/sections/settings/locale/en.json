@@ -1,0 +1,8 @@
+{
+	"gradeSettings": {
+		"save": "Save",
+		"cancel": "Cancel",
+		"updateSuccess": "Updated Successfully",
+		"updateError": "Updated failed"
+	}
+}

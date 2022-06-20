@@ -1,0 +1,27 @@
+.ui.message.comment-box {
+	background-color: var(--bg-third-color);
+	color: var(--text-table-color);
+	padding: 24px;
+	border-radius: 2px;
+	box-shadow: 0 0 0 2px var(--text-header-color);
+}
+
+.comment-box .content {
+	width: 100%;
+	margin-top: 12px;
+}
+
+.comment-box .icon {
+	color: var(--success-color);
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	float: right;
+}
+.comment-box .icon:hover {
+	color: var(--warning-color);
+}
+
+.comment-box .content p {
+	cursor: pointer;
+}

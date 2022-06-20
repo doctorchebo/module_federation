@@ -1,0 +1,30 @@
+.ui.message.msg {
+	box-shadow: 0 0 0 1px #ccbea0 inset, 0 0 0 0 transparent;
+}
+.msg-warning.ui.message .header:not(.ui) {
+	color: #eab208;
+}
+
+.msg-warning.ui.message .list.msg-list:not(.ui) {
+	color: rgba(122, 77, 5, 0.8);
+}
+.msg-error.ui.message .header:not(.ui) {
+	color: #f87171;
+}
+
+.msg-error.ui.message .list.msg-list:not(.ui) {
+	color: #973937;
+}
+
+.ui.message .list.msg-list:not(.ui) li::before {
+	display: none;
+}
+
+.ui.message .list.msg-list:not(.ui) li {
+	margin: 0;
+}
+
+.ui.icon.message > .icon.icon-msg:not(.close) {
+	font-size: 1.5rem;
+	width: 2rem;
+}

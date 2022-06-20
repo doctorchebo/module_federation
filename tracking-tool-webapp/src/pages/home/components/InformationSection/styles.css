@@ -1,0 +1,12 @@
+.information-section {
+	padding: 8em 0 !important;
+}
+
+.circle img {
+	transition: 1s ease;
+}
+
+.circle img:hover {
+	border-radius: 30%;
+	transition: 1s ease;
+}

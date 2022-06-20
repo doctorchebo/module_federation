@@ -1,0 +1,91 @@
+.update-candidate-form .button-group {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	margin-top: 75px;
+}
+
+.update-candidate-form .button-group .button {
+	border-radius: 0;
+}
+
+.update-candidate-form .button-group .button:last-child {
+	background-color: var(--primary-color);
+}
+
+.update-candidate-form .button-group .button:last-child:hover {
+	background-color: var(--primary-color);
+}
+
+.id-field {
+	display: none;
+}
+
+.cm-toggle {
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+}
+
+.cm-toggle::after {
+	content: '';
+	width: 60px;
+	height: 28px;
+	display: inline-block;
+	background: rgba(196, 195, 195, 0.55);
+	border-radius: 18px;
+	clear: both;
+}
+
+.cm-toggle::before {
+	content: '';
+	width: 32px;
+	height: 32px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -3px;
+	border-radius: 50%;
+	background: var(--bg-third-color);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cm-toggle:checked::before {
+	left: 32px;
+	box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cm-toggle:checked::after {
+	background: var(--success-dark-color);
+}
+
+/* stylelint-disable no-descending-specificity */
+.cm-toggle,
+.cm-toggle::before,
+.cm-toggle::after,
+.cm-toggle:checked::before,
+.cm-toggle:checked::after {
+	transition: ease 0.3s;
+	-webkit-transition: ease 0.3s;
+	-moz-transition: ease 0.3s;
+	-o-transition: ease 0.3s;
+}
+
+.color-primary:checked::after {
+	background: var(--primary-color);
+}
+
+.checkbox-toggle {
+	margin-left: 6px;
+}
+
+.checkbox-toggle-container {
+	width: 100%;
+	display: inline-flex;
+	margin-top: 1rem;
+	margin-left: 0.5rem;
+}

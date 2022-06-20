@@ -1,0 +1,73 @@
+{
+	"profile": {
+		"icon": "home",
+		"list": [{ "key": "Profile", "content": "Profile", "active": true }]
+	},
+	"subjects": {
+		"icon": "newspaper",
+		"list": [{ "key": "My subjects", "content": "My subjects", "active": true }]
+	},
+	"dashboard": {
+		"icon": "home",
+		"list": [{ "key": "dashboard", "content": "dashboard", "active": true }]
+	},
+	"programs": {
+		"icon": "graduation cap",
+		"list": [{ "key": "Programs", "content": "Programs", "active": true }]
+	},
+	"programsEvaluation": {
+		"icon": "graduation cap",
+		"list": [
+			{ "key": "Programs", "content": "Programs", "href": "/dashboard/program-versions" },
+			{ "key": "Evaluations", "content": "evaluations", "active": true }
+		]
+	},
+	"scholar": {
+		"icon": "users",
+		"list": [{ "key": "Scholar", "content": "Scholar", "active": true }]
+	},
+	"scholarEvaluationsStage": {
+		"icon": "users",
+		"list": [
+			{ "key": "Scholar", "content": "Scholar", "href": "/dashboard/scholars" },
+			{ "key": "Evaluations", "content": "evaluations", "active": true }
+		]
+	},
+	"scholarDetail": {
+		"icon": "users",
+		"list": [
+			{ "key": "Scholar", "content": "Scholar", "href": "/dashboard/scholars" },
+			{ "key": "Detail", "content": "Detail", "active": true }
+		]
+	},
+	"user": {
+		"icon": "users",
+		"list": [{ "key": "Users", "content": "Users", "active": true }]
+	},
+	"roles": {
+		"icon": "id badge",
+		"list": [{ "key": "Roles", "content": "Roles", "active": true }]
+	},
+	"rolesAdd": {
+		"icon": "id badge",
+		"list": [
+			{ "key": "Roles", "content": "Roles", "href": "/dashboard/roles" },
+			{ "key": "Add", "content": "Add", "active": true }
+		]
+	},
+	"rolesEdit": {
+		"icon": "id badge",
+		"list": [
+			{ "key": "Roles", "content": "Roles", "href": "/dashboard/roles" },
+			{ "key": "Edit", "content": "Edit", "active": true }
+		]
+	},
+	"candidates": {
+		"icon": "users",
+		"list": [{ "key": "Candidates", "content": "Candidates", "active": true }]
+	},
+	"interns": {
+		"icon": "users",
+		"list": [{ "key": "Interns", "content": "Interns", "active": true }]
+	}
+}

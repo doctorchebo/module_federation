@@ -1,0 +1,23 @@
+.bulk-form .button-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 75px;
+}
+
+.bulk-form .button-group .button {
+	border-radius: 0;
+}
+
+.bulk-form .button-group .button:last-child {
+	background-color: var(--primary-color);
+}
+
+.bulk-form .button-group .button:last-child:hover {
+	background-color: var(--primary-color);
+}
+
+.bulk-form .permissions-table {
+	margin: 0;
+}

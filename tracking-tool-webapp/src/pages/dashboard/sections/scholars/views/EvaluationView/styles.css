@@ -1,0 +1,33 @@
+.evaluation {
+	display: flex;
+	position: relative;
+	height: 100%;
+}
+
+.evaluation .empty-content {
+	width: 240px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.ui.segment .evaluation .evaluation-main {
+	margin: 0;
+	padding: 8px;
+	width: 100%;
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	background: none;
+}
+
+.evaluation .evaluation-event {
+	background-color: white;
+	max-width: 500px;
+	transform: translateX(1.5rem);
+	margin-left: auto;
+}
+
+.ui.secondary.pointing.menu .active.item.menu-tab {
+	border-color: var(--primary-color);
+	color: var(--primary-color);
+}

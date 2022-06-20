@@ -1,0 +1,28 @@
+.wrapper-evaluations {
+	padding: 0.5rem;
+}
+
+.evaluation-main {
+	margin: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+	padding: 8px;
+	width: 100%;
+	border-radius: 0;
+	background: none;
+}
+
+.container-form-evaluate {
+	padding: 14px 40px;
+}
+
+.field-toogle-container {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.field-toogle-container .ui.checkbox input.hidden + label {
+	padding-left: 55px;
+}

@@ -1,0 +1,38 @@
+.dashboard-wrapper {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.dashboard-wrapper .sidebar.ui.very.wide.sidebar.menu {
+	width: 600px;
+	text-align: left;
+}
+
+.personal-container {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.dashboard-wrapper > .ui.segment {
+	border: 0;
+}
+
+.empty-content {
+	width: 300px;
+	margin: auto;
+}
+
+.section-header {
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--primary-color);
+	display: flex;
+	padding: 16px 0;
+}
+.section-header .title {
+	margin-top: 12px;
+	height: 20px;
+	width: 100%;
+}

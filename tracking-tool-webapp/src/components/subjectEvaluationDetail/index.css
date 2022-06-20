@@ -1,0 +1,16 @@
+.letter {
+	font-weight: bold;
+}
+
+.image {
+	width: 420px;
+}
+
+.titles td {
+	height: 30px !important;
+	vertical-align: baseline;
+}
+
+.topEdge tr td {
+	border-top: none !important;
+}

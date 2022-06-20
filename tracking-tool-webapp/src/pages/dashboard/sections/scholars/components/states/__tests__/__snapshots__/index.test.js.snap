@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/dashboard/sections/scholars/components/states Html structure Should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="status__container"
+  >
+    <span
+      class="status__title"
+    >
+      Status History
+    </span>
+    <button
+      class="ui basic button custom-button"
+    >
+      <i
+        aria-hidden="true"
+        class="edit small icon icon"
+      />
+      Edit
+    </button>
+  </div>
+  <div
+    class="ui active centered inline loader"
+  />
+</DocumentFragment>
+`;

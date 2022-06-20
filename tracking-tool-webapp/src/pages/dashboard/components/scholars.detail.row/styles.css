@@ -1,0 +1,50 @@
+.detail-row .scholar-grid {
+	min-height: 220px;
+}
+
+.ui.table tr.detail-row td {
+	height: auto;
+	padding: 2rem;
+}
+
+.detail-row .scholar-grid-duration {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.detail-row .scholar-image-date.ui.header {
+	padding-left: 2rem;
+	font-size: var(--text-header-second-size);
+	color: var(--text-second-header-color);
+	display: flex;
+	flex-direction: row;
+}
+
+.detail-row .scholar-image-date.ui.header .sub.header {
+	font-size: var(--text-sub-header-size);
+	color: inherit;
+	margin-top: 0.5rem;
+}
+
+.scholar-image-date.ui.header > .image:not(.icon),
+.scholar-image-date.ui.header.ui.header > img {
+	min-width: 90px;
+	height: 90px;
+}
+
+.detail-row .scholar-grid-duration .ui.header {
+	font-size: var(--text-header-second-size);
+	color: var(--text-second-header-color);
+}
+
+.detail-row .scholar-grid-duration .ui.header .sub.header {
+	color: var(--text-header-color);
+}
+
+.detail-row h3.ui.header,
+.detail-row .scholar-grid-duration h3.ui.header {
+	font-size: var(--text-sub-header-size);
+	color: var(--text-header-color);
+	font-weight: normal;
+}

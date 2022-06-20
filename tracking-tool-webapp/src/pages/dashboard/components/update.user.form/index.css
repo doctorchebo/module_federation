@@ -1,0 +1,23 @@
+.update-user-form .button-group {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	margin-top: 75px;
+}
+
+.update-user-form .button-group .button {
+	border-radius: 0;
+}
+
+.update-user-form .button-group .button:last-child {
+	background-color: var(--primary-color);
+}
+
+.update-user-form .button-group .button:last-child:hover {
+	background-color: var(--primary-color);
+}
+
+.id-field {
+	display: none;
+}

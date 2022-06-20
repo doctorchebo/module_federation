@@ -1,0 +1,27 @@
+:root {
+	--top-menu-height: 4.7em;
+}
+
+.top-menu {
+	height: var(--top-menu-height);
+	position: fixed;
+	width: calc(100% - 310px);
+	right: 0;
+	z-index: 100;
+	top: 0;
+}
+
+.top-menu.ui.menu {
+	background-color: var(--bg-first-color);
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.user-guide {
+	color: var(--icon-primary-color);
+}
+
+.user-guide:hover {
+	color: var(--icon-primary-color);
+}

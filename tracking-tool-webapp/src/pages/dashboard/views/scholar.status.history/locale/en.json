@@ -1,0 +1,61 @@
+{
+	"textChangeStatus": "change status of scholar",
+    "updated": "Updated",
+    "statusErrorMessages": {
+		"statusType": {
+			"required": "Status type is required"
+		},
+		"description": {
+			"required": "Comment is required",
+			"minLength": "Title must have at least %s characters",
+			"maxLength": "Title must not have more than %s characters"
+		}
+	},
+
+	"errorMessages": {
+		"eventType": {
+			"required": "Event type is required"
+		},
+		"stage": {
+			"required": "Stage is required"
+		},
+		"subject": {
+			"required": "Subject is required"
+		},
+		"title": {
+			"required": "Title is required",
+			"minLength": "Title must have at least %s characters",
+			"maxLength": "Title must not have more than %s characters"
+		},
+		"description": {
+			"required": "Description is required",
+			"minLength": "Description must have at least %s characters",
+			"maxLength": "Description must not have more than %s characters"
+		}
+	},
+
+	"statusForm": {
+		"update": {
+			"title": "Update status for %s",
+			"description": "Modify the information below to update the status of the scholar."
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"fields": {
+			"status": {
+				"actualStatus": "Actual status:",
+				"label": "Status",
+				"placeholder": "Status"
+			},
+			"description": {
+				"label": "Comment",
+				"placeholder": "Write something..."
+			}
+		},
+		"save": "Save",
+		"cancel": "Cancel"
+	},
+	"createSuccess": "Created Successfully",
+	"updateSuccess": "Updated Successfully"
+}

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/dashboard/sections/scholars/components/Details Tests of the component <Details/> Should match with the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container-details"
+  >
+    <p
+      class="container-details__title"
+    >
+      Scholar Profile
+    </p>
+    <div
+      class="container-details--main"
+    >
+      <img
+        class="ui circular left floated image container-details__img"
+        src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
+      />
+      <div
+        class="container-details__left-information"
+      >
+        <div
+          class="container-information"
+        >
+          <div
+            class="container-information__name"
+          >
+            <strong>
+              Juan Perez
+            </strong>
+          </div>
+          <div
+            class="container-information__version"
+          >
+            Dev 31
+          </div>
+        </div>
+        <div
+          class="status"
+          name="status"
+        >
+          <div
+            class="Onhold"
+          />
+          Onhold
+        </div>
+        <div
+          class="container-attribute"
+        >
+          <i
+            aria-hidden="true"
+            class="clock icon container-attribute__icon"
+          />
+          <span
+            class="container-information__attribute"
+            name="scholar-duration"
+          >
+            Dec 20, 2012 &gt; Mar 16, 2023 (10 years, 3 months)
+          </span>
+        </div>
+        <div
+          class="container-attribute"
+        >
+          <i
+            aria-hidden="true"
+            class="phone volume icon container-attribute__icon"
+          />
+          <span
+            class="container-information__attribute"
+          >
+            98765412
+          </span>
+        </div>
+        <div
+          class="container-attribute"
+        >
+          <i
+            aria-hidden="true"
+            class="mail icon container-attribute__icon"
+          />
+          <span
+            class="container-information__attribute"
+          >
+            juan@fundacion-jala.org
+          </span>
+        </div>
+        <div
+          class="container-attribute"
+        >
+          <i
+            aria-hidden="true"
+            class="map marker alternate icon container-attribute__icon"
+          />
+          <span
+            class="container-information__attribute"
+          >
+            Cochabamba
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="scholar-tab"
+  >
+    <div
+      class="main-tab"
+    >
+      <div
+        class="ui pointing secondary menu"
+      >
+        <a
+          class="active item"
+        >
+          Summary
+        </a>
+        <a
+          class="item"
+        >
+          Training
+        </a>
+        <a
+          class="item"
+        >
+          States
+        </a>
+        <a
+          class="item"
+        >
+          Personal
+        </a>
+        <a
+          class="item"
+        >
+          Events
+        </a>
+      </div>
+      <div
+        class="ui segment active tab"
+      >
+        <div>
+          CardSummaryMock
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

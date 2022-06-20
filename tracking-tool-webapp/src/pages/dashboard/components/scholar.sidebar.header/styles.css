@@ -1,0 +1,27 @@
+.sidebar-event-header {
+	width: 100%;
+}
+
+.sidebar-event-header .ui.segment.basic {
+	height: 80px;
+	margin-bottom: 0;
+	display: flex;
+	padding-left: 40px;
+	padding-right: 40px;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid var(--border-color);
+}
+
+.sidebar-event-header .ui.segment.basic .ui.header {
+	margin: 0;
+	font-size: var(--text-sub-header-size);
+}
+
+.sidebar-event-header .ui.segment.basic .ui.header:first-child {
+	color: var(--text-table-color);
+}
+
+.sidebar-event-header .ui.segment.basic .ui.header:last-child {
+	color: var(--primary-color);
+}

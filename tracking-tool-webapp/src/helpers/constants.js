@@ -1,0 +1,18 @@
+export const POST = 'POST';
+export const GET = 'GET';
+export const PUT = 'PUT';
+export const PATCH = 'PATCH';
+export const DELETE = 'DELETE';
+export const HEADER_JSON = 'application/json';
+export const HEADER_FILE = 'multipart/form-data';
+export const CONNECT_PARAMS = '?';
+export const CONNECT_EQUAL = '=';
+export const CONNECT_AND = '&';
+export const ERROR = false;
+export const STATUS_OK = 200;
+export const STATUS_MULTIPLE_CHOICES = 300;
+export const STATUS_BAD_REQUEST = 400;
+export const STATUS_INTERNAL_ERROR = 500;
+export const HTTP_READY = 4;
+export const MESSAGE_ERROR = 'The server responded with an unexpected status.';
+export const navbarBrand = 'https://i.ibb.co/6FZD4qF/New-Project-32.png';

@@ -1,0 +1,116 @@
+{
+	"name": "myapp",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": ".",
+	"dependencies": {
+		"@craco/craco": "^6.4.3",
+		"@heroicons/react": "^1.0.0",
+		"@testing-library/jest-dom": "^5.11.8",
+		"@testing-library/user-event": "^12.6.0",
+		"apexcharts": "^3.35.0",
+		"chart.js": "^3.6.0",
+		"classnames": "^2.3.1",
+		"clone-deep": "^4.0.1",
+		"csv-file-validator": "^1.10.1",
+		"dayjs": "^1.10.7",
+		"dotenv": "^16.0.0",
+		"draft-js": "^0.11.7",
+		"draftjs-to-html": "^0.9.1",
+		"exceljs": "^4.2.1",
+		"heroicons-react": "^1.4.0",
+		"html-to-draftjs": "^1.5.0",
+		"immer": "^9.0.1",
+		"immutable": "^4.0.0",
+		"intersection-observer": "0.12.0",
+		"jest-dom": "^4.0.0",
+		"jwt-decode": "^3.1.2",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.1",
+		"react": "^17.0.2",
+		"react-apexcharts": "^1.4.0",
+		"react-beautiful-dnd": "^13.1.0",
+		"react-chartjs-2": "^4.0.0",
+		"react-csv": "^2.2.2",
+		"react-datepicker": "^4.2.1",
+		"react-dom": "^17.0.1",
+		"react-draft-wysiwyg": "^1.14.5",
+		"react-dropzone": "^11.3.2",
+		"react-export-excel": "^0.5.3",
+		"react-image-crop": "^9.0.3",
+		"react-intl": "^5.20.9",
+		"react-redux": "^8.0.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.1",
+		"react-semantic-toasts": "^0.6.5",
+		"react-show-more-text": "^1.4.6",
+		"react-stomp": "^5.1.0",
+		"react-vertical-timeline-component": "^3.3.3",
+		"react-virtualized": "^9.22.3",
+		"redux": "^4.2.0",
+		"redux-thunk": "^2.4.1",
+		"semantic-ui-css": "^2.4.1",
+		"semantic-ui-react": "^2.0.1",
+		"stylelint-config-standard": "^20.0.0",
+		"stylelint-prettier": "^1.1.2",
+		"web-vitals": "^0.2.4",
+		"webpack": "5.73.0",
+		"winston": "^3.3.3"
+	},
+	"scripts": {
+		"start": "craco start",
+		"build-production": "REACT_APP_NODE_ENV=production rimraf build && craco build",
+		"build-uat": "REACT_APP_NODE_ENV=uat rimraf build && craco build",
+		"test": "set CI=true && craco test --env=jsdom --coverage",
+		"eject": "craco eject",
+		"lint": "npx eslint ./src --ext .jsx --ext .js",
+		"lint:fix": "npx eslint ./src --ext .jsx --ext .js --fix"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@testing-library/react": "^11.2.3",
+		"@testing-library/react-hooks": "^5.1.0",
+		"customize-cra": "^1.0.0",
+		"eslint": "^7.22.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-jest": "^24.3.2",
+		"eslint-plugin-jsdoc": "^38.0.4",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"jest-canvas-mock": "^2.3.1",
+		"jsdoc": "^3.6.7",
+		"json-server": "^0.17.0",
+		"prettier": "^2.2.1",
+		"prop-types": "^15.7.2",
+		"react-app-rewired": "^2.1.8",
+		"redux-immutable-state-invariant": "^2.1.0",
+		"redux-mock-store": "^1.5.4",
+		"rimraf": "^3.0.2",
+		"stylelint": "^13.8.0",
+		"stylelint-config-prettier": "^8.0.2",
+		"terser-webpack-plugin": "^5.2.4"
+	},
+	"babel": {
+		"presets": [
+			"react-app"
+		]
+	}
+}

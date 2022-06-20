@@ -1,0 +1,19 @@
+#!/bin/bash
+
+CREATED_AT=$1
+DATE="${CREATED_AT%T*}"
+
+VERSION_LINE=$(cat setup-version.json)
+VERSION="${VERSION_LINE%\"*}"
+VERSION="${VERSION##*\"}"
+UAT_ENV="uat"
+PROD_ENV="prod"
+PROD_IMAGE_TAG="${VERSION}_${DATE}_${PROD_ENV}"
+UAT_IMAGE_TAG="${VERSION}_${DATE}_${UAT_ENV}"
+echo "DATE: ${DATE}"
+echo "CURRENT_VERSION: ${VERSION}"
+echo "PROD_IMAGE_TAG: ${PROD_IMAGE_TAG}"
+echo "UAT_IMAGE_TAG: ${UAT_IMAGE_TAG}"
+echo "UAT_ENV: ${UAT_ENV}"
+echo "PROD_ENV: ${PROD_ENV}"
+echo "Done!"

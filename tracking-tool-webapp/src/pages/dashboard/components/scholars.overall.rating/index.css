@@ -1,0 +1,37 @@
+.overall-rating {
+	color: var(--primary-color);
+	display: flex;
+	align-items: center;
+}
+
+.overall-rating .spacing {
+	width: 4px;
+}
+
+.overall-rating .content {
+	font-size: 16px;
+	font-weight: bold;
+	width: 240px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.ui.form .overall-rating .ui.input > input {
+	background-color: inherit;
+	color: var(--rating-color);
+	font-size: 18px;
+	margin-top: 3px;
+	max-width: 45px;
+	padding: 0;
+	text-align: center;
+}
+
+.ui.form .overall-rating.readonly .ui.input > input,
+.ui.form .overall-rating.readonly .ui.input.disabled {
+	border: none;
+	opacity: 1;
+}

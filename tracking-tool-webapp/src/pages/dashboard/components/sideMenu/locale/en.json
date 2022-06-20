@@ -1,0 +1,48 @@
+{
+	"DashBoard": {
+		"name": "Dashboard",
+		"icon": "home",
+		"link": "/dashboard/"
+	},
+	"Settings": {
+		"name": "Settings",
+		"icon": "setting",
+		"link": "/dashboard/settings"
+	},
+	"Users": {
+		"name": "Users",
+		"icon": "user",
+		"link": "/dashboard/users"
+	},
+	"Scholars": {
+		"name": "Applicants",
+		"subtitle": "Scholars",
+		"icon": "users",
+		"link": "/dashboard/scholars"
+	},
+	"Interns": {
+		"name": "Interns",
+		"link": "/dashboard/interns"
+	},
+	"Candidates": {
+		"name": "Candidates",
+		"link": "/dashboard/candidates"
+	},
+	"Programs": {
+		"name": "Programs",
+		"icon": "graduation cap",
+		"link": "/dashboard/program-versions"
+	},
+	"Subjects": {
+		"name": "Evaluation by Subject",
+		"icon": "newspaper outline",
+		"iconSecondary": "book",
+		"link": "/dashboard/subjects"
+	},
+	"Roles": {
+		"name": "Roles",
+		"icon": "id badge",
+		"link": "/dashboard/roles"
+	},
+	"title": "Administration"
+}

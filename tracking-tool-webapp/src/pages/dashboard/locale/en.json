@@ -1,0 +1,186 @@
+{
+	"bulkEvaluationButton": "Bulk evaluation to scholar",
+	"tooltip": {
+		"edit": "Edit",
+		"deleted": "Delete"
+	},
+	"subjects": {
+		"tableHeaders": ["All", "Role", "Description", "Actions"],
+		"selector": {
+			"title": "Subjects"
+		},
+		"bulkEvaluationForm": {
+			"title": "Bulk evaluation to scholars",
+			"subjectsTableTitle": "Subjects",
+			"save": "Save",
+			"cancel": "< Back to Subjects"
+		},
+		"users": "Associated users"
+	},
+	"actionMenu": {
+		"listEvents": "Events",
+		"Details": "View Details",
+		"addEvent": "Add event",
+		"evaluation": "Evaluate Stages",
+		"changeStatus": "Change Status",
+		"enrollInProgram": "Enroll in Program"
+	},
+	"actionStage": {
+		"Details": "View Details"
+	},
+	"roles": {
+		"tableHeaders": ["All", "Role", "Description", "Actions"],
+		"selector": {
+			"title": "Roles"
+		},
+		"bulkEditForm": {
+			"title": "Bulk Edit Roles",
+			"rolesTableTitle": "Roles",
+			"save": "Save",
+			"cancel": "< Back to Roles"
+		},
+		"users": "Associated users"
+	},
+	"roleForm": {
+		"create": {
+			"title": "Add new role"
+		},
+		"permissionsTitle": "Permissions",
+		"permission": "Permission",
+		"noAccess": "None",
+		"canView": "View",
+		"canAdd": "Add",
+		"canEdit": "Edit",
+		"canDelete": "Delete",
+		"all": "All",
+		"errorMessages": {
+			"name": {
+				"required": "Name type is required",
+				"minLength": "Name must have at least %s characters",
+				"maxLength": "Name must not have more than %s characters"
+			},
+			"description": {
+				"required": "Description is required",
+				"minLength": "Description must have at least %s characters",
+				"maxLength": "Description must not have more than %s characters"
+			}
+		},
+		"fields": {
+			"name": {
+				"label": "Name",
+				"placeholder": "Role name"
+			},
+			"description": {
+				"label": "Description",
+				"placeholder": "Write something..."
+			}
+		},
+		"messageError": {
+			"header": "Something is wrong!"
+		},
+		"save": "Save",
+		"cancel": "< Back to Roles"
+	},
+	"evaluation": {
+		"scholar": "Scholar"
+	},
+	"scholars": {
+		"evaluationTop": {
+			"per": "Evaluation per",
+			"stage": "stage",
+			"choose": "Choose an option"
+		},
+		"tab": {
+			"menuItems": ["Events", "Status History"]
+		},
+		"tabMenu": {
+			"menuItems": ["Summary", "Training", "States", "Personal", "Events"]
+		},
+		"overallRating": {
+			"content": "Overall Rating"
+		},
+		"changeProgramForm": {
+			"errorMessages": {
+				"main": "Something is wrong!",
+				"programs": {
+					"required": "Select a program is required"
+				},
+				"description": {
+					"required": "Description is required",
+					"minLength": "Description must have at least %s characters",
+					"maxLength": "Description must not have more than %s characters"
+				}
+			},
+			"validator": {
+				"description": {
+					"minLength": 2,
+					"maxLength": 255
+				}
+			},
+			"fields": {
+				"programs": {
+					"label": "Programs in progress",
+					"placeholder": "Choose a program"
+				},
+				"description": {
+					"label": "Description",
+					"placeholder": "Write something..."
+				}
+			},
+			"save": "Save",
+			"cancel": "Cancel"
+		}
+	},
+	"filter": "Filter by ",
+	"program": "Enroll in Program",
+	"status": "Change Status",
+	"users": {
+		"allRoles": "All roles",
+		"rolesLabel": "Roles",
+		"pagination": {
+			"defaultPage": 1,
+			"defaultSize": 10,
+			"defaultSort": "firstName",
+			"defaultFilerOption": "roles"
+		},
+		"filter": "Filter by "
+	},
+	"activityTypes": {
+		"informativeTalk": "Informative Talk",
+		"postulation": "Postulation",
+		"states": {
+			"notStarted": "Not started",
+			"passed": "Passed"
+		}
+	},
+	"searchPlaceHolder": "Search by User, Email Adress, phone Number or Version",
+	"richTextOptions": {
+		"bold": "bold",
+		"italic": "italic",
+		"underline": "underline",
+		"strikethrough": "strikethrough",
+		"unorderedList": "unordered",
+		"orderedList": "ordered",
+		"inline": "inline",
+		"list": "list",
+		"colorPicker": "colorPicker",
+		"link": "link",
+		"remove": "remove",
+		"emoji":"emoji"
+	},
+	"confirmModal":{
+		"header": "Delete Evaluation",
+		"content": "Are you sure you want to delete this evaluation?"
+	},
+	"headerGrades":[
+		"GRADE",
+		"COLOR",
+		"CODE"
+	],
+	"formOptions":{
+		"titleMenu": "Colors grade",
+		"title": "Settings Grade",
+		"cancel": "Cancel",
+		"save": "Save"
+	}
+}

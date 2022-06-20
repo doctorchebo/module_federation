@@ -1,0 +1,27 @@
+.modal-profile .image {
+	height: 380px;
+	float: left;
+	cursor: pointer;
+}
+
+.ui.modal .react-crop {
+	text-align: center;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	max-width: 100%;
+	max-height: 60vh;
+	overflow: scroll;
+}
+
+.ui.modal .actions > .ui.button.save-button {
+	background-color: var(--primary-color);
+	color: var(--bg-third-color);
+}
+
+.ui.modal .actions > .ui.button.cancel-button {
+	background-color: inherit;
+	border: none;
+	color: var(--text-table-color);
+}

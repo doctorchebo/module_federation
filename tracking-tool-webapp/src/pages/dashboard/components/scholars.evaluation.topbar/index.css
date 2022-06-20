@@ -1,0 +1,40 @@
+.evaluation-top-bar {
+	display: flex;
+	flex-direction: row;
+	margin: 16px 0;
+	align-content: space-between;
+}
+
+.evaluation-top-bar .title {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: var(--primary-color);
+	font-size: 18px;
+}
+
+.evaluation-top-bar .buttons {
+	display: flex;
+	flex-direction: row;
+}
+.evaluation-top-bar .title .stage {
+	font-weight: bolder;
+	margin-right: 5px;
+}
+.evaluation-top-bar .title .version {
+	color: var(--text-header-color);
+	margin-left: 8px;
+	font-size: 14px;
+}
+
+.evaluation-top-bar .status {
+	display: flex;
+	align-items: center;
+	color: var(--success-color);
+	font-size: 16px;
+	width: 225px;
+}
+.evaluation-top-bar .status .icon {
+	width: 20px;
+	margin-left: 4px;
+}

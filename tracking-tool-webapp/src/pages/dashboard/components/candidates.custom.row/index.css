@@ -1,0 +1,59 @@
+.container-download {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.download {
+	font-size: 13px;
+}
+
+.candidate-row .status {
+	display: flex;
+	align-items: center;
+}
+
+.candidate-row .status > div {
+	height: 17px;
+	width: 17px;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.status.actived {
+	color: var(--actived-dark-color);
+}
+
+.status.completed {
+	color: var(--completed-dark-color);
+}
+
+.status.inactive {
+	color: var(--inactive-dark-color);
+}
+
+.status.onhold {
+	color: var(--onhold-dark-color);
+}
+
+.status .actived {
+	background-color: var(--actived-light-color);
+	border-color: var(--actived-dark-color);
+}
+
+.status .completed {
+	background-color: var(--completed-light-color);
+	border-color: var(--completed-dark-color);
+}
+
+.status .inactive {
+	background-color: var(--inactive-light-color);
+	border-color: var(--inactive-dark-color);
+}
+
+.status .onhold {
+	background-color: var(--onhold-light-color);
+	border-color: var(--onhold-dark-color);
+}
