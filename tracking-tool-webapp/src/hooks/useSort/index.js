@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { useUsersContext } from 'pages/dashboard/sections/users/context/usersContext';
-import { hyphen } from 'pages/dashboard/sections/users/locale/en.json';
+import locale from 'pages/dashboard/sections/users/locale/en.json';
 import LoggerService from 'services/LoggerService';
 
 /**
@@ -38,7 +38,7 @@ export default function useSort(items, config = null) {
 			direction = Direction.descending;
 		}
 		setSortConfig({ key, direction });
-		const sortKey = direction !== Direction.ascending ? hyphen.concat(key) : key;
+		const sortKey = direction !== Direction.ascending ? locale.hyphen.concat(key) : key;
 		if (backendSort) {
 			switch (type) {
 				case 'users':

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Input, Button } from 'semantic-ui-react';
-import { searchPlaceholder } from './../../../../application/locale/en.json';
+import locale from './../../../../application/locale/en.json';
 import { PropTypes } from 'prop-types';
 import './style.css';
 
@@ -23,7 +23,7 @@ const Search = ({ selectSearchValue, searchValueRef }) => {
 			<Input
 				icon='search'
 				value={inputValue}
-				placeholder={searchPlaceholder}
+				placeholder={locale.searchPlaceholder}
 				onChange={handleChange}
 				onKeyPress={handleKeyPress}
 			/>

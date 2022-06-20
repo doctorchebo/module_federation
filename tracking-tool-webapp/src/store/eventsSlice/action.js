@@ -8,7 +8,7 @@ import apiUsers from 'api/models/users';
 import notificationsAPI from 'api/models/notifications';
 import attachmentsApi from 'api/models/attachments';
 import locale from 'pages/dashboard/components/eventsManager/locale/en.json';
-import { verifyEmail } from 'application/context/locale/en.json';
+import locale_app from 'application/context/locale/en.json';
 import LoggerService from 'services/LoggerService';
 import { EventsActionTypes, StatusActionTypes } from './types';
 import { decodeToken } from 'helpers/tokenDecoder';
@@ -470,7 +470,7 @@ export function onSendEmails(payload) {
 			.post(payload, token, complementUrl)
 			.then((response) => {
 				showSuccessToast({
-					title: verifyEmail.emailSent,
+					title: locale_app.verifyEmail.emailSent,
 				});
 			})
 			.catch((error) => {

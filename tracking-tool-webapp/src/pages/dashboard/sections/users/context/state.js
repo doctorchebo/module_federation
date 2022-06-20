@@ -1,6 +1,6 @@
 import produce from 'immer';
 import { UsersActionTypes } from './enums';
-import { all, pagination } from './../locale/en.json';
+import locale from './../locale/en.json';
 
 /**
  * Set an initial state for users view.
@@ -17,12 +17,12 @@ export function State() {
 		loading: false,
 		sideBar: false,
 		roles: [],
-		role: all,
+		role: locale.all,
 		pagination: {
 			currentPage: 1,
-			pageSize: pagination.defaultSize,
+			pageSize: locale.pagination.defaultSize,
 			totalPages: 1,
-			sort: pagination.defaultSort,
+			sort: locale.pagination.defaultSort,
 			filterValue: '',
 			filterOption: '',
 			criteria: '',

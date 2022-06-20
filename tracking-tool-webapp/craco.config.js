@@ -21,6 +21,21 @@ module.exports = {
 			exceptions: path.resolve(__dirname, 'src/exceptions/'),
 			settings: path.resolve(__dirname, 'src/settings/'),
 			hooks: path.resolve(__dirname, 'src/hooks/'),
+			path: require.resolve('path-browserify'),
+			zlib: require.resolve('browserify-zlib'),
+			crypto: require.resolve('crypto-browserify'),
+			stream: require.resolve('stream-browserify'),
+			http: require.resolve('stream-http'),
+			https: require.resolve('https-browserify'),
+			url: require.resolve('url'),
+			fs: require.resolve('browserify-fs'),
+		},
+		resolve: {
+			fallback: {
+				assert: require.resolve('assert'),
+				os: require.resolve('os-browserify/browser'),
+				buffer: require.resolve('buffer'),
+			},
 		},
 	},
 };

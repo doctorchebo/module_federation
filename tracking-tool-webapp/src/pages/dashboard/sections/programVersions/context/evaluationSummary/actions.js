@@ -3,7 +3,7 @@ import apiProgramVersions from 'api/models/programVersions';
 import evaluationScholarsApi from 'api/models/evaluationScholars';
 import LoggerService from 'services/LoggerService';
 import { ProgramVersionsActionTypes } from '../enums';
-import { EvaluationColumns } from '../../locale/en.json';
+import locale from '../../locale/en.json';
 import { OnSendEvaluationReports } from '../../helpers/sendEvaluation';
 
 /**
@@ -63,11 +63,11 @@ function onLoadScholars(dispatch, payload) {
 			let { data, success, error } = response;
 			if (success) {
 				data.forEach((scholar) => {
-					if (scholar.evaluationStatus === EvaluationColumns.Pending) {
+					if (scholar.evaluationStatus === locale.EvaluationColumns.Pending) {
 						pendingScholars.push(scholar);
-					} else if (scholar.evaluationStatus === EvaluationColumns.Approved) {
+					} else if (scholar.evaluationStatus === locale.EvaluationColumns.Approved) {
 						approvedScholars.push(scholar);
-					} else if (scholar.evaluationStatus === EvaluationColumns.Failed) {
+					} else if (scholar.evaluationStatus === locale.EvaluationColumns.Failed) {
 						failedScholars.push(scholar);
 					}
 				});

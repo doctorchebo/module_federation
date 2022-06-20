@@ -5,7 +5,6 @@ import { decodeToken } from 'helpers/tokenDecoder';
 import Icon from 'components/icon';
 import { ProfileProvider } from 'pages/profile/context';
 import ProfilePicture from 'pages/profile/components/profilePicture';
-import { textAddEventIn, updated } from '../../locale/en.json';
 import RichTextShowMore from 'components/richTextShowMore';
 import locale from '../../locale/en.json';
 import './styles.css';
@@ -38,7 +37,7 @@ function CardEvent(props) {
 					<Card.Header className='card-icon' textAlign='left' name='card-header'>
 						<div>
 							{event.user}
-							<h4> {textAddEventIn} </h4> <h3>{event.stage}</h3>
+							<h4> {locale.textAddEventIn} </h4> <h3>{event.stage}</h3>
 						</div>
 						<div className='content-icon'>
 							{event.userId === decodeToken().sub && (
@@ -70,7 +69,7 @@ function CardEvent(props) {
 						<span className='subject'>{event.eventType.name}</span>
 						{new Date(event.modifiedAt).toLocaleString([], DATE_SETTINGS)}
 						<span className='event-modified'>
-							{event.createdAt !== event.modifiedAt ? ` · ${updated}` : null}
+							{event.createdAt !== event.modifiedAt ? ` · ${locale.updated}` : null}
 						</span>
 					</Card.Meta>
 					<Card.Description name='card-description'>
