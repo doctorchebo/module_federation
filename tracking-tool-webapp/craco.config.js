@@ -1,4 +1,7 @@
 const path = require('path');
+const { DefinePlugin } = require('webpack');
+const Dotenv = require('dotenv-webpack');
+const webpack = require('webpack');
 module.exports = {
 	devServer: {
 		port: 3000,
@@ -9,6 +12,16 @@ module.exports = {
 		},
 	],
 	webpack: {
+		plugins: {
+			add: [
+				new webpack.ProvidePlugin({
+					process: 'process/browser',
+				}),
+				new webpack.ProvidePlugin({
+					Buffer: ['buffer', 'Buffer'],
+				}),
+			],
+		},
 		alias: {
 			api: path.resolve(__dirname, 'src/api/'),
 			application: path.resolve(__dirname, 'src/application/'),
@@ -21,20 +34,22 @@ module.exports = {
 			exceptions: path.resolve(__dirname, 'src/exceptions/'),
 			settings: path.resolve(__dirname, 'src/settings/'),
 			hooks: path.resolve(__dirname, 'src/hooks/'),
-			path: require.resolve('path-browserify'),
-			zlib: require.resolve('browserify-zlib'),
-			crypto: require.resolve('crypto-browserify'),
-			stream: require.resolve('stream-browserify'),
-			http: require.resolve('stream-http'),
-			https: require.resolve('https-browserify'),
-			url: require.resolve('url'),
-			fs: require.resolve('browserify-fs'),
 		},
-		resolve: {
-			fallback: {
-				assert: require.resolve('assert'),
-				os: require.resolve('os-browserify/browser'),
-				buffer: require.resolve('buffer'),
+		configure: {
+			resolve: {
+				fallback: {
+					assert: require.resolve('assert'),
+					os: require.resolve('os-browserify/browser'),
+					buffer: require.resolve('buffer'),
+					path: require.resolve('path-browserify'),
+					zlib: require.resolve('browserify-zlib'),
+					crypto: require.resolve('crypto-browserify'),
+					stream: require.resolve('stream-browserify'),
+					http: require.resolve('stream-http'),
+					https: require.resolve('https-browserify'),
+					url: require.resolve('url'),
+					fs: require.resolve('browserify-fs'),
+				},
 			},
 		},
 	},
