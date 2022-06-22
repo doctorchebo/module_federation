@@ -1,0 +1,79 @@
+.container {
+    box-sizing: border-box;
+    width:90%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0px auto;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.login-form{
+    align-items: center;
+    background-image: url(../../assets/img/form-background.jpg);    
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding:40px;
+    margin-left: 15px;
+    justify-content:center;
+    min-height:50%;
+    max-width: 30%;
+}
+
+
+
+.side-image-container{
+    max-width:40%;
+    position: relative;
+    margin-left: 15px;
+
+}
+.side-image{
+    border-radius: 10px;
+}
+
+img{
+    width:90%;
+}
+
+.h-line{
+    width: 100%;
+    height: 15px;
+    border-bottom: 1px solid white;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+.forgot-password-link{
+    text-decoration: none;
+    font-size:1.1rem;
+    color:white;
+    margin-bottom: 15px;
+    cursor:pointer;
+}
+
+.side-image-title{
+    position: absolute;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;;
+    color: white;
+    font-size: 3rem;
+    padding: 45px;
+    font-weight: 300;
+    text-align: center;
+}
+.side-image-description{
+    box-sizing: border-box;
+    position: absolute;
+    top: 300px;
+    font-family: 'Open Sans', sans-serif;;
+    color: white;
+    font-size: 2.2rem;
+    margin: 5px auto;
+    padding: 15px;
+    font-weight: 300;
+    width:90%;
+}

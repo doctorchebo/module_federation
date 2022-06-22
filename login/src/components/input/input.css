@@ -1,0 +1,11 @@
+.input-field{
+    border-radius: 10px;
+    padding: 5px;
+    height: 35px;
+    width: 200px; 
+    border: 2px solid #107FA3;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}

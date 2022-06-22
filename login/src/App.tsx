@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import SignIn from './pages/signin'
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        Login page from the microfrontend
-      </header>
-    </div>
-  );
+    <>
+      <SignIn/>
+    </>
+  )
 }
 
-export default App;
+export default App
