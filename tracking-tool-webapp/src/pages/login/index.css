@@ -16,7 +16,7 @@
 	background-color: var(--background-page);
 }
 
-.login {
+/* .login {
 	margin-bottom: 0;
 	background-image: url('../../assets/img/background-login.png');
 	background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 	width: 70%;
 	height: 70%;
 	position: relative;
-}
+} */
 
 .login .ui.top.aligned.grid {
 	margin: 0;

@@ -2,7 +2,6 @@ import { useApplication } from 'application/context/AppContext';
 import React, { Suspense, useEffect } from 'react';
 import SignIn from '../components/signin';
 import { PropTypes } from 'prop-types';
-const RemoteApp = React.lazy(() => import('app2/App'));
 /**
  * @param {*} props -
  * @returns {object} Login View
@@ -25,7 +24,9 @@ export default function LoginView(props) {
 
 	return (
 		<Suspense fallback={'loading...'}>
-			<RemoteApp />
+			{/* <RemoteApp />
+			<h1>Hello</h1> */}
+			<SignIn />
 		</Suspense>
 	);
 }

@@ -1,10 +1,12 @@
 import React from 'react';
-import { Grid, Header, Image, Segment } from 'semantic-ui-react';
-import locale from './locale/en.json';
-import LoginView from './views';
+// import { Grid, Header, Image, Segment } from 'semantic-ui-react';
+// import locale from './locale/en.json';
+// import LoginView from './views';
 import { useHistory } from 'react-router';
 import './index.css';
 import { useApplication } from 'application/context/AppContext';
+
+const RemoteApp = React.lazy(() => import('app2/App'));
 
 /**
  * @returns {React.Component} -
@@ -22,7 +24,7 @@ export default function Login() {
 
 	return (
 		<div className='login-container'>
-			<Grid verticalAlign={'top'} className='login'>
+			{/* <Grid verticalAlign={'top'} className='login'>
 				<Segment basic className='personal-loading' loading={state.signIn} />
 				<Grid.Column width={10}>
 					<Image src={locale.brand} />
@@ -34,7 +36,8 @@ export default function Login() {
 						<LoginView redirectToProfile={toProfile} />
 					</div>
 				</Grid.Column>
-			</Grid>
+			</Grid> */}
+			<RemoteApp />
 		</div>
 	);
 }
