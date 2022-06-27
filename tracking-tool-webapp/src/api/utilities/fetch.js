@@ -39,6 +39,7 @@ async function request(url, params, service, token = '', options = { method: GET
 	let response;
 	try {
 		response = await fetch(settings[service].API_URL + url, { ...options, headers });
+		console.log('The fetched url is : => ' + settings[service].API_URL);
 	} catch (err) {
 		throw new InternalServerError(err.message);
 	}

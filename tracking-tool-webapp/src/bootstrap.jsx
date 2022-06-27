@@ -8,21 +8,23 @@ import { Provider } from 'react-redux';
 import configureStore from './store/store';
 import './theme/index.css';
 import { createRoot } from 'react-dom/client';
-
+import { LoginProvider } from 'app2/store';
 const store = configureStore();
 
 const container = document.getElementById('app');
 const root = createRoot(container);
 root.render(
-	<Provider store={store}>
-		<ApplicationDataProvider>
-			<SubjectDetailsDataProvider>
-				<BrowserRouter>
-					<ProfileProvider>
-						<Application />
-					</ProfileProvider>
-				</BrowserRouter>
-			</SubjectDetailsDataProvider>
-		</ApplicationDataProvider>
-	</Provider>
+	<LoginProvider>
+		<Provider store={store}>
+			<ApplicationDataProvider>
+				<SubjectDetailsDataProvider>
+					<BrowserRouter>
+						<ProfileProvider>
+							<Application />
+						</ProfileProvider>
+					</BrowserRouter>
+				</SubjectDetailsDataProvider>
+			</ApplicationDataProvider>
+		</Provider>
+	</LoginProvider>
 );

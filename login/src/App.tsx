@@ -1,13 +1,13 @@
-import React from 'react'
-import SignIn from './pages/signin'
-import "./App.css";
+import React from 'react';
+import SignIn from './pages/signin';
+import './App.css';
 
 const App = () => {
-  return (
-    <>
-      <SignIn/>
-    </>
-  )
-}
+	return (
+		<>
+			<SignIn />
+		</>
+	);
+};
 
-export default App
+export default App;

@@ -10,8 +10,10 @@ import ResetPassword from 'pages/resetPasswordPages/resetPassword';
 import { SemanticToastContainer } from 'react-semantic-toasts';
 import 'react-semantic-toasts/styles/react-semantic-alert.css';
 import VerifyEmail from 'pages/resetPasswordPages/verifyEmail';
-
+import { useLoginStore } from 'app2/store';
 export const Application = () => {
+	const { loginState } = useLoginStore();
+	console.log('The shared state is: ' + JSON.stringify(loginState));
 	const [state] = useApplication();
 	const { pathname } = useLocation();
 	const currentRoles = Object.values(Role);

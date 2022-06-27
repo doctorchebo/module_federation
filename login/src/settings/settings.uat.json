@@ -1,0 +1,36 @@
+{
+	"Auth": {
+		"URL": "http://backend",
+		"API_URL": "http://200.106.245.182/backend/api/v1/"
+	},
+	"Main": {
+		"URL": "http://200.106.245.182",
+		"PORT": 9000,
+		"API_URL": "http://200.106.245.182/backend-cqrs/api/v1/"
+	},
+	"Identity": {
+		"URL": "http://200.106.245.182",
+		"PORT": 9000,
+		"API_URL": "http://200.106.245.182/identity-service/api/v1/"
+	},
+	"Attachments": {
+		"URL": "http://200.106.245.182",
+		"PORT": 8084,
+		"API_URL": "http://200.106.245.182:attachments-service/api/v1/"
+	},
+	"Notifications": {
+		"URL": "http://200.106.245.182:8085",
+		"PORT": 8085,
+		"API_URL": "http://200.106.245.182/notifications-service/api/v1/"
+	},
+	"Candidates": {
+		"URL": "http://200.106.245.182:9081",
+		"PORT": 9081,
+		"API_URL": "http://200.106.245.182/candidates-service/api/v1/"
+	},
+	"DummyBackend": {
+		"URL": "http://200.106.245.182/json-server",
+		"PORT": 9000,
+		"API_URL": "http://200.106.245.182/json-server/api/v1/"
+	}
+}

@@ -1,17 +1,24 @@
-import React from "react";
-import "./input.css";
+import React from 'react';
+import { Form } from 'semantic-ui-react';
+import PropTypes from 'prop-types';
+import './input.css';
 
-interface props {
-  placeholder: string;
+interface IInputProps {
+	className?: string;
+	value?: string;
+	label?: string;
+	type?: string;
+	placeholder: string;
 }
-
-const Input = ({placeholder}: props) => {
-  return (
-    <input 
-      className="input-field"
-      placeholder = {placeholder}
-    />
-  )
+export const InputLogin = (props: IInputProps) => {
+	return (
+		<Form.Input
+			className='input-field'
+			fluid
+			value={props.value}
+			type={props.type}
+			label={props.label}
+			placeholder={props.placeholder}
+		/>
+	);
 };
-
-export default Input;

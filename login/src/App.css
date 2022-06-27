@@ -1,15 +1,13 @@
-
-
 body {
-  /* width: 100vw;    
+	/* width: 100vw;    
   height: 100vh; */
-  font-family: 'Open Sans', sans-serif;
-  background-color: #437089; 
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding: 100px;
-  margin: 0px auto;
-  align-items: center;
-  margin-top:0px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #437089;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	margin: 0px auto;
+	align-items: center;
+	margin-top: 0px;
 }

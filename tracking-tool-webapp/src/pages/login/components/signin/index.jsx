@@ -41,7 +41,7 @@ export default function SignIn(props) {
 				icon={<Icon name='user' />}
 				iconPosition='left'
 				placeholder={form.userField}
-				validate={(data) => validateForm('email', data, validateEmail(data))}
+				onChange={(e) => e.target.value}
 			/>
 			<MessageLogin value={errors.email} />
 			<InputLogin
@@ -50,7 +50,7 @@ export default function SignIn(props) {
 				placeholder={form.passwordField}
 				icon={<Icon name='eye' link onClick={() => setHide(!hide)} />}
 				iconPosition='left'
-				validate={(data) => validateForm('password', data)}
+				onChange={(e) => e.target.value}
 			/>
 			<MessageLogin value={errors.password} />
 			<Link className='reset-password-link' to='/verify-email'>
