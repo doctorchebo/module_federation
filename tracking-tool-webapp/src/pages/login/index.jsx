@@ -22,7 +22,7 @@ export default function Login(props) {
 
 	useEffect(() => {
 		if (state.isLoggedIn) {
-			// history.push('/dashboard');
+			history.push('/dashboard');
 		}
 	}, [state.isLoggedIn]);
 
