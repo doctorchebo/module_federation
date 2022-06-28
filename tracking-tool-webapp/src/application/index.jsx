@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { useApplication } from 'application/context/AppContext';
+import { useApplication, useLoginReducer } from 'application/context/AppContext';
 import Home from 'pages/home/index';
 import FactoryRoutes from './routes';
 import Login from 'pages/login';
@@ -10,10 +10,7 @@ import ResetPassword from 'pages/resetPasswordPages/resetPassword';
 import { SemanticToastContainer } from 'react-semantic-toasts';
 import 'react-semantic-toasts/styles/react-semantic-alert.css';
 import VerifyEmail from 'pages/resetPasswordPages/verifyEmail';
-import { useLoginStore } from 'app2/store';
 export const Application = () => {
-	const { loginState } = useLoginStore();
-	console.log('The shared state is: ' + JSON.stringify(loginState));
 	const [state] = useApplication();
 	const { pathname } = useLocation();
 	const currentRoles = Object.values(Role);

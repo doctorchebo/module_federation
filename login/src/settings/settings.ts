@@ -1,16 +1,12 @@
-import settingsDevelop from './settings.development.json';
-import settingsUat from './settings.uat.json';
-import settingsProduction from './settings.json';
-
-export default function ApiSettings(mode: any) {
+export default function mode(mode: string | undefined) {
 	switch (mode) {
-		case 'production':
-			return settingsProduction;
+		case 'prod':
+			return 'http://40.117.121.137/identity-service/api/v1/';
 		case 'uat':
-			return settingsUat;
-		case 'development':
-			return settingsDevelop;
+			return 'http://200.106.245.182/identity-service/api/v1/';
+		case 'dev':
+			return 'http://localhost:8090/api/v1/';
 		default:
-			return settingsDevelop;
+			return 'http://localhost:8090/api/v1/';
 	}
 }

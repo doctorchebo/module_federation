@@ -1,6 +1,4 @@
 const path = require('path');
-const { DefinePlugin } = require('webpack');
-const Dotenv = require('dotenv-webpack');
 const webpack = require('webpack');
 module.exports = {
 	devServer: {

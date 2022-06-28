@@ -15,6 +15,7 @@
 		"@types/react-redux": "^7.1.24",
 		"@typescript-eslint/eslint-plugin": "^5.29.0",
 		"@typescript-eslint/parser": "^5.29.0",
+		"axios": "^0.27.2",
 		"module-federation-plugin": "^0.8.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",

@@ -6,7 +6,8 @@ import { formData } from './FormData';
 import './signIn.css';
 import SideImage from '../../assets/img/side-image.jpg';
 import { useForm, Resolver } from 'react-hook-form';
-import { useLoginStore } from '../../store/store';
+import axios from 'axios';
+import mode from '../../settings/settings';
 
 export interface ICredentials {
 	email: string;
@@ -22,8 +23,7 @@ const resolver: Resolver<ICredentials> = async (values) => {
 	};
 };
 
-const SignIn = (props: any) => {
-	const { onLoadSignIn, loginState } = useLoginStore();
+const SignIn = ({ onSignIn }: any) => {
 	const { username, password, loginButton, signupButton, title, description } = formData;
 	const {
 		register,
@@ -31,13 +31,22 @@ const SignIn = (props: any) => {
 	} = useForm<ICredentials>({ resolver });
 
 	const dummyData = {
-		email: 'mentor.dev31@fundacion-jala.org',
+		email: 'osmar.ugarte@fundacion-jala.org',
 		password: 'Admin12345',
 	};
 	const handleSubmit = (e: SyntheticEvent) => {
 		e.preventDefault();
-		onLoadSignIn(dummyData);
-		props.onSignIn();
+		const url = mode(process.env.MODE);
+		console.log('url =>' + url);
+		axios
+			.post(`${url}authentication/login`, dummyData)
+			.then((res) => {
+				localStorage.setItem('token', res.data.data[0]);
+				onSignIn();
+			})
+			.catch((error) => {
+				console.log(error);
+			});
 	};
 
 	return (

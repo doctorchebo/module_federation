@@ -1,10 +1,8 @@
-import React, { useCallback } from 'react';
-import { configureStore, Action } from '@reduxjs/toolkit';
-import loginSliceReducer, { login } from './loginSlice';
-import { ThunkAction } from 'redux-thunk';
+import React from 'react';
+import { configureStore } from '@reduxjs/toolkit';
+import loginSliceReducer, { loginSelector } from './loginSlice';
 import { Provider } from 'react-redux';
-import { useAppDispatch, useAppSelector } from './hooks';
-import { ICredentials } from '../pages/signin';
+import { useAppSelector } from './hooks';
 
 const store = configureStore({
 	reducer: {
@@ -12,33 +10,18 @@ const store = configureStore({
 	},
 });
 
-export const LoginProvider = ({ children }: any) => {
+export const LoginProvider = ({ children }: { children: React.ReactNode }) => {
 	return <Provider store={store}>{children}</Provider>;
 };
 
 export type AppDispatch = typeof store.dispatch;
 export type RootState = ReturnType<typeof store.getState>;
-export type AppThunk<ReturnType = void> = ThunkAction<
-	ReturnType,
-	RootState,
-	unknown,
-	Action<string>
->;
+
 export default store;
 
 export const useLoginStore = () => {
-	const dispatch = useAppDispatch();
-	const loginState = useAppSelector((state) => state.loginStore);
-
-	const onLoadSignInCallback = useCallback(
-		(user: ICredentials) => {
-			dispatch(login(user));
-		},
-		[dispatch]
-	);
-
+	const loginState = useAppSelector(loginSelector);
 	return {
 		loginState,
-		onLoadSignIn: onLoadSignInCallback,
 	};
 };

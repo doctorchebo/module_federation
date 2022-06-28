@@ -84,6 +84,7 @@ function SignIn(payload, dispatch) {
  */
 function Profile(dispatch) {
 	const token = localStorage.getItem('token');
+	console.log('trying to get the token =>' + token);
 	const complement = 'profile';
 	userIdentityAPI
 		.getAllWithParams('', token, complement)
@@ -278,6 +279,15 @@ function changeUserPassword(payload) {
 			});
 		});
 }
+/**
+ * Set the state to isLoggedIn = true
+ *
+ * @param {Function} dispatch - Function to change context state.
+ * @param {object} payload - secret code and the new password
+ */
+function setIsLoggedIn(dispatch) {
+	dispatch({ type: ApplicationActions.SignIn, payload: true });
+}
 
 /**
  *
@@ -322,5 +332,6 @@ export default function ApplicationActionFactory(dispatch) {
 		onNotificationsUpdate: (payload) => onNotificationsUpdate(dispatch, payload),
 		onVerifyEmail: (payload) => verifyEmail(payload),
 		onChangeUserPassword: (payload) => changeUserPassword(payload),
+		onSetIsLoggedIn: () => setIsLoggedIn(dispatch),
 	};
 }

@@ -9,18 +9,18 @@ import { PropTypes } from 'prop-types';
 export default function LoginView(props) {
 	const [state, actions] = useApplication();
 
-	useEffect(() => {
-		if (state.isLoggedIn) {
-			props.redirectToProfile();
-		}
-	}, [state.isLoggedIn]);
+	// useEffect(() => {
+	// 	if (state.isLoggedIn) {
+	// 		props.redirectToProfile();
+	// 	}
+	// }, [state.isLoggedIn]);
 
-	/**
-	 * @param {object} credential username and password info
-	 */
-	function loginHandle(credential) {
-		actions.onSignIn(credential);
-	}
+	// /**
+	//  * @param {object} credential username and password info
+	//  */
+	// function loginHandle(credential) {
+	// 	actions.onSignIn(credential);
+	// }
 
 	return (
 		<Suspense fallback={'loading...'}>
