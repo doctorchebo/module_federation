@@ -1,4 +1,4 @@
-.container {
+/* .container {
 	box-sizing: border-box;
 	width: 90%;
 	align-items: center;
@@ -8,19 +8,19 @@
 	margin: 0px auto;
 	justify-content: space-evenly;
 	border-radius: 10px;
-}
+} */
 
 .login-form {
-	align-items: center;
+	/* align-items: center; */
 	background-image: url(../../assets/img/form-background.jpg);
 	border-radius: 10px;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
+	/* box-sizing: border-box; */
+	/* display: flex; */
+	/* flex-direction: column; */
 	padding: 40px;
-	margin-left: 15px;
-	justify-content: center;
-	min-height: 50%;
+	/* margin-left: 15px; */
+	/* justify-content: center; */
+	/* min-height: 50%; */
 	max-width: 30%;
 }
 
@@ -54,7 +54,7 @@ img {
 
 .side-image-title {
 	position: absolute;
-	top: 10px;
+	top: 5%;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 3rem;
@@ -65,12 +65,14 @@ img {
 .side-image-description {
 	box-sizing: border-box;
 	position: absolute;
-	top: 300px;
+	top: 45%;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 2.2rem;
 	margin: 5px auto;
 	padding: 15px;
 	font-weight: 300;
+	letter-spacing: 3px;
 	width: 90%;
+	justify-content:left;
 }

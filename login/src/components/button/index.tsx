@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button as SButton } from 'semantic-ui-react';
 import './button.css';
 
 export interface props {
@@ -7,7 +8,9 @@ export interface props {
 }
 
 const Button = ({ value, className }: props) => {
-	return <button className={className}>{value}</button>;
+	const btnColor = className === 'login' ? 'blue' : 'green';
+	const icon = className === 'login' ? 'sign in' : 'signup';
+	return <SButton fluid color={btnColor} content={value} circular icon={icon} size='medium' />;
 };
 
 export default Button;

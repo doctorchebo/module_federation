@@ -1,7 +1,6 @@
 import React from 'react';
-import { Form } from 'semantic-ui-react';
-import PropTypes from 'prop-types';
-import './input.css';
+import { Input as SInput } from 'semantic-ui-react';
+// import './input.css';
 
 interface IInputProps {
 	className?: string;
@@ -11,14 +10,15 @@ interface IInputProps {
 	placeholder: string;
 }
 export const InputLogin = (props: IInputProps) => {
+	const icon = props.placeholder === 'username' ? 'user outline' : 'lock';
 	return (
-		<Form.Input
-			className='input-field'
+		<SInput
 			fluid
 			value={props.value}
 			type={props.type}
-			label={props.label}
+			label={{ icon, color: 'teal' }}
 			placeholder={props.placeholder}
+			color='blue'
 		/>
 	);
 };
