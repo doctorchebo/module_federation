@@ -58,10 +58,18 @@ const SignIn = ({ onSignIn }: any) => {
 						<Grid.Column width={4} verticalAlign='middle'>
 							<Form className='login-form' onSubmit={handleSubmit}>
 								<Form.Field width={16}>
-									<InputLogin className='input-login' placeholder={username} />
+									<InputLogin
+										className='input-login'
+										placeholder={username}
+										type='text'
+									/>
 								</Form.Field>
 								<Form.Field width={16}>
-									<InputLogin className='input-login' placeholder={password} />
+									<InputLogin
+										className='input-login'
+										placeholder={password}
+										type='password'
+									/>
 								</Form.Field>
 								{errors?.password && <p>{errors.password.message}</p>}
 								<Button value={loginButton} className='login' />
