@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { ChangeEvent } from 'react';
 import { Input as SInput } from 'semantic-ui-react';
-// import './input.css';
+import { ChangeHandler, useForm } from 'react-hook-form';
 
 interface IInputProps {
 	className?: string;
@@ -9,6 +9,7 @@ interface IInputProps {
 	type?: string;
 	placeholder: string;
 }
+
 export const InputLogin = (props: IInputProps) => {
 	const icon = props.placeholder === 'username' ? 'user outline' : 'lock';
 	return (
@@ -18,7 +19,8 @@ export const InputLogin = (props: IInputProps) => {
 			type={props.type}
 			label={{ icon, color: 'teal' }}
 			placeholder={props.placeholder}
-			color='blue'
+			name={props.placeholder}
+			required
 		/>
 	);
 };

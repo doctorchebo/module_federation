@@ -1,53 +1,92 @@
-import React, { SyntheticEvent } from 'react';
+import React, { ChangeEvent, FormEvent, SyntheticEvent, useState } from 'react';
 import Button from '../../components/button';
 import Container from '../../components/container';
 import { InputLogin } from '../../components/input';
 import { formData } from './FormData';
 import './signIn.css';
 import SideImage from '../../assets/img/side-image.jpg';
-import { useForm, Resolver } from 'react-hook-form';
-import { Form, Grid, Image } from 'semantic-ui-react';
+import { useForm, Resolver, FormProviderProps, SubmitHandler } from 'react-hook-form';
+import { Form, Grid, Image, Message, FormProps } from 'semantic-ui-react';
 import axios from 'axios';
 import mode from '../../settings/settings';
+import { validateFields } from '../../helpers/validations';
 
 export interface ICredentials {
-	email: string;
+	username: string;
 	password: string;
 }
+export interface ErrorInterface {
+	username: { message: string; foundError: boolean };
+	password: { message: string; foundError: boolean };
+}
 
-const resolver: Resolver<ICredentials> = async (values) => {
-	return {
-		values: values.email ? values : {},
-		errors: !values.password
-			? { email: { type: 'required', message: 'This is required.' } }
-			: {},
-	};
-};
+export interface validationReponse {
+	type: string;
+	msg: string;
+}
 
 const SignIn = ({ onSignIn }: any) => {
 	const { username, password, loginButton, signupButton, title, description } = formData;
-	const {
-		register,
-		formState: { errors },
-	} = useForm<ICredentials>({ resolver });
+	const initialErrorState: ErrorInterface = {
+		username: { message: '', foundError: false },
+		password: { message: '', foundError: false },
+	};
+	const initialInputState: ICredentials = {
+		username: '',
+		password: '',
+	};
+	const [inputState, setState] = useState(initialInputState);
+	const [passwordState, setPassword] = useState('');
+	const [errors, setErrors] = useState(initialErrorState);
 
 	const dummyData = {
 		email: 'osmar.ugarte@fundacion-jala.org',
 		password: 'Admin12345',
 	};
-	const handleSubmit = (e: SyntheticEvent) => {
-		e.preventDefault();
-		const url = mode(process.env.MODE);
-		console.log('url =>' + url);
-		axios
-			.post(`${url}authentication/login`, dummyData)
-			.then((res) => {
-				localStorage.setItem('token', res.data.data[0]);
-				onSignIn();
-			})
-			.catch((error) => {
-				console.log(error);
-			});
+
+	const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+		const value = event.target.value;
+		const name = event.target.name;
+		setState((values) => ({ ...values, [name]: value }));
+		if (event.target.validity.valid) {
+			validateForm(validateFields(name, value));
+		}
+	};
+
+	const validateForm = (error: validationReponse) => {
+		if (error.msg !== '') {
+			setErrors((values) => ({
+				...values,
+				[error.type]: { message: error.msg, foundError: true },
+			}));
+		} else {
+			setErrors((values) => ({
+				...values,
+				[error.type]: { message: '', foundError: false },
+			}));
+		}
+	};
+
+	const handleSubmit = (event: FormEvent, data: FormProps) => {
+		event.preventDefault();
+		console.log(event.currentTarget);
+		if (!errors.username.foundError && !errors.password.foundError) {
+			const submitData = {
+				email: inputState.username,
+				password: inputState.password,
+			};
+			const url = mode(process.env.MODE);
+			console.log('url =>' + url);
+			axios
+				.post(`${url}authentication/login`, submitData)
+				.then((res) => {
+					localStorage.setItem('token', res.data.data[0]);
+					onSignIn();
+				})
+				.catch((error) => {
+					console.log(error);
+				});
+		}
 	};
 
 	return (
@@ -56,22 +95,29 @@ const SignIn = ({ onSignIn }: any) => {
 				<Grid doubling={true} relaxed={true} stretched columns={2}>
 					<Grid.Row centered verticalAlign='middle'>
 						<Grid.Column width={4} verticalAlign='middle'>
-							<Form className='login-form' onSubmit={handleSubmit}>
+							<Form
+								as='form'
+								className='login-form'
+								error
+								onSubmit={handleSubmit}
+								onChange={handleChange}
+							>
 								<Form.Field width={16}>
-									<InputLogin
-										className='input-login'
-										placeholder={username}
-										type='text'
-									/>
+									<InputLogin placeholder={username} type='text' />
 								</Form.Field>
+								{errors?.username.foundError && (
+									<Message negative>
+										<Message.Header>{errors.username.message}</Message.Header>
+									</Message>
+								)}
 								<Form.Field width={16}>
-									<InputLogin
-										className='input-login'
-										placeholder={password}
-										type='password'
-									/>
+									<InputLogin placeholder={password} type='password' />
 								</Form.Field>
-								{errors?.password && <p>{errors.password.message}</p>}
+								{errors?.password.foundError && (
+									<Message negative>
+										<Message.Header>{errors.password.message}</Message.Header>
+									</Message>
+								)}
 								<Button value={loginButton} className='login' />
 								<div className='h-line' />
 								<Form.Field>
@@ -81,11 +127,9 @@ const SignIn = ({ onSignIn }: any) => {
 							</Form>
 						</Grid.Column>
 						<Grid.Column width={5}>
-							{/* <div className='side-image-container'> */}
 							<Image src={SideImage} alt='side image' fluid rounded />
 							<div className='side-image-title'>{title}</div>
 							<div className='side-image-description'>{description}</div>
-							{/* </div> */}
 						</Grid.Column>
 					</Grid.Row>
 				</Grid>
