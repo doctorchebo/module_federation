@@ -18,6 +18,7 @@ jest.mock('store/eventsSlice/useEventStore', () => {
 				onAddView: jest.fn(),
 				onSearchEvent: jest.fn(),
 				onGetUsersToNotify: jest.fn(),
+				onClearViewStack: jest.fn(),
 			};
 			return { state, actions };
 		},

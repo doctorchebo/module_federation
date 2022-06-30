@@ -1,17 +1,21 @@
 import { render } from '@testing-library/react';
-import Login from '../index';
 import { BrowserRouter, useHistory, MemoryRouter } from 'react-router-dom';
+import Login from '../index';
 import React from 'react';
 import mockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
+import { fn } from 'moment';
 
 const middlewares = [thunk];
 const mockStoreConfig = mockStore(middlewares);
 
 const mockLoginState = { isLoggedIn: true };
 const mockLoginAction = { onSignIn: jest.fn() };
-
+jest.mock('../../login/index', () => {
+	const Login = jest.fn();
+	return <Login />;
+});
 jest.mock('application/context/AppContext', () => {
 	return {
 		useApplication: () => {
@@ -39,10 +43,10 @@ function WrapperPage() {
 
 describe('pages/login', () => {
 	describe('Html structure', () => {
-		it('Should render page login', () => {
+		it('Should render page login', async () => {
 			const { container } = renderWithRouter(
 				<Provider store={mockStoreConfig({})}>
-					<Login />
+					<mockLogin />
 				</Provider>
 			);
 			expect(container.firstChild).toBeInstanceOf(HTMLDivElement);

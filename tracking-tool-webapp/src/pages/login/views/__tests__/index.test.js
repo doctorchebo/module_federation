@@ -1,12 +1,19 @@
 import { fireEvent, render } from '@testing-library/react';
 import React from 'react';
+import Login from '../../index';
 import { MemoryRouter } from 'react-router';
-import LoginView from '..';
 import { MESSAGE_ERROR } from 'helpers/constants';
 import mockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
-
+jest.mock(
+	'../../../login/index',
+	() => {
+		const Login = jest.fn();
+		return <Login />;
+	},
+	{ virtual: true }
+);
 const middlewares = [thunk];
 const mockStoreConfig = mockStore(middlewares);
 
@@ -28,7 +35,7 @@ function customRender() {
 	const { container } = render(
 		<Provider store={mockStoreConfig({})}>
 			<MemoryRouter>
-				<LoginView />
+				<Login />
 			</MemoryRouter>
 		</Provider>
 	);
