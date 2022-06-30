@@ -16,7 +16,7 @@ export const InputLogin = (props: IInputProps) => {
 		<SInput
 			fluid
 			value={props.value}
-			type={props.type}
+			type={props.type || 'text'}
 			label={{ icon, color: 'teal' }}
 			placeholder={props.placeholder}
 			name={props.placeholder}
