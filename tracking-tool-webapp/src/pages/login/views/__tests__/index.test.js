@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/react';
 import React from 'react';
-import Login from '../../index';
+import Login from '../../../login/index';
 import { MemoryRouter } from 'react-router';
 import { MESSAGE_ERROR } from 'helpers/constants';
 import mockStore from 'redux-mock-store';

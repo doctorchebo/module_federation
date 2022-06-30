@@ -12,7 +12,7 @@ const mockStoreConfig = mockStore(middlewares);
 
 const mockLoginState = { isLoggedIn: true };
 const mockLoginAction = { onSignIn: jest.fn() };
-jest.mock('../../login/index', () => {
+jest.mock('../index', () => {
 	const Login = jest.fn();
 	return <Login />;
 });
