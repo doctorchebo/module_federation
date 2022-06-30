@@ -46,7 +46,7 @@ describe('pages/login', () => {
 		it('Should render page login', async () => {
 			const { container } = renderWithRouter(
 				<Provider store={mockStoreConfig({})}>
-					<mockLogin />
+					<Login />
 				</Provider>
 			);
 			expect(container.firstChild).toBeInstanceOf(HTMLDivElement);
