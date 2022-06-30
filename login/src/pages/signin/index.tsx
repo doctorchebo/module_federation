@@ -88,18 +88,20 @@ const SignIn = ({ onSignIn }: any) => {
 				<Grid doubling={true} relaxed={true} stretched columns={2}>
 					<Grid.Row centered verticalAlign='middle'>
 						<Grid.Column width={4} verticalAlign='middle'>
+							<input type='hidden' value='something' />
 							<Form
 								as='form'
 								className='login-form'
 								error
 								onSubmit={handleSubmit}
 								onChange={handleChange}
+								autoComplete='off'
 							>
 								<Form.Field width={16}>
 									<InputLogin
 										placeholder={username}
 										type='text'
-										autocomplete='off'
+										autoComplete='off'
 									/>
 								</Form.Field>
 								{errors?.username.foundError && (
@@ -111,7 +113,7 @@ const SignIn = ({ onSignIn }: any) => {
 									<InputLogin
 										placeholder={password}
 										type='password'
-										autocomplete='off'
+										autoComplete='off'
 									/>
 								</Form.Field>
 								{errors?.password.foundError && (

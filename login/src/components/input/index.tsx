@@ -1,6 +1,5 @@
-import React, { ChangeEvent } from 'react';
+import React from 'react';
 import { Input as SInput } from 'semantic-ui-react';
-import { ChangeHandler, useForm } from 'react-hook-form';
 
 interface IInputProps {
 	className?: string;
@@ -8,7 +7,7 @@ interface IInputProps {
 	label?: string;
 	type?: string;
 	placeholder: string;
-	autocomplete?: string;
+	autoComplete?: string;
 }
 
 export const InputLogin = (props: IInputProps) => {
@@ -21,7 +20,7 @@ export const InputLogin = (props: IInputProps) => {
 			label={{ icon, color: 'teal' }}
 			placeholder={props.placeholder}
 			name={props.placeholder}
-			autocomplete={props.autocomplete}
+			autoComplete={props.autoComplete}
 			required
 		/>
 	);
