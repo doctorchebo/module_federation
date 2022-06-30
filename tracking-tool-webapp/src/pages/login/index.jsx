@@ -2,7 +2,7 @@ import { useHistory } from 'react-router';
 import React, { Suspense, useEffect } from 'react';
 import './index.css';
 import { useApplication } from 'application/context/AppContext';
-const RemoteApp = React.lazy(() => import('app2/index'));
+const RemoteApp = React.lazy(() => import('login/index'));
 
 /**
  * @param {*} props -
