@@ -7,7 +7,7 @@ export function validateFields(field: string, value: string): validationReponse 
 	if (field === 'username') {
 		if (!value || value.length <= 1) {
 			error = 'Please enter a username';
-		} else if (value.length > 10) {
+		} else {
 			error = !emailRegEx.test(value.toLowerCase()) ? 'Submit a valid Email' : '';
 		}
 	} else if (field === 'password') {
