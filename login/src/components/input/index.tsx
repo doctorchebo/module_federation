@@ -8,6 +8,7 @@ interface IInputProps {
 	label?: string;
 	type?: string;
 	placeholder: string;
+	autocomplete?: string;
 }
 
 export const InputLogin = (props: IInputProps) => {
@@ -20,6 +21,7 @@ export const InputLogin = (props: IInputProps) => {
 			label={{ icon, color: 'teal' }}
 			placeholder={props.placeholder}
 			name={props.placeholder}
+			autocomplete={props.autocomplete}
 			required
 		/>
 	);

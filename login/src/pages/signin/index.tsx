@@ -1,11 +1,10 @@
-import React, { ChangeEvent, FormEvent, SyntheticEvent, useState } from 'react';
+import React, { ChangeEvent, FormEvent, useState } from 'react';
 import Button from '../../components/button';
 import Container from '../../components/container';
 import { InputLogin } from '../../components/input';
 import { formData } from './FormData';
 import './signIn.css';
 import SideImage from '../../assets/img/side-image.jpg';
-import { useForm, Resolver, FormProviderProps, SubmitHandler } from 'react-hook-form';
 import { Form, Grid, Image, Message, FormProps } from 'semantic-ui-react';
 import axios from 'axios';
 import mode from '../../settings/settings';
@@ -36,13 +35,7 @@ const SignIn = ({ onSignIn }: any) => {
 		password: '',
 	};
 	const [inputState, setState] = useState(initialInputState);
-	const [passwordState, setPassword] = useState('');
 	const [errors, setErrors] = useState(initialErrorState);
-
-	const dummyData = {
-		email: 'osmar.ugarte@fundacion-jala.org',
-		password: 'Admin12345',
-	};
 
 	const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
 		const value = event.target.value;
@@ -84,7 +77,7 @@ const SignIn = ({ onSignIn }: any) => {
 					onSignIn();
 				})
 				.catch((error) => {
-					console.log(error);
+					throw new error(error);
 				});
 		}
 	};
@@ -103,7 +96,11 @@ const SignIn = ({ onSignIn }: any) => {
 								onChange={handleChange}
 							>
 								<Form.Field width={16}>
-									<InputLogin placeholder={username} type='text' />
+									<InputLogin
+										placeholder={username}
+										type='text'
+										autocomplete='off'
+									/>
 								</Form.Field>
 								{errors?.username.foundError && (
 									<Message negative>
@@ -111,7 +108,11 @@ const SignIn = ({ onSignIn }: any) => {
 									</Message>
 								)}
 								<Form.Field width={16}>
-									<InputLogin placeholder={password} type='password' />
+									<InputLogin
+										placeholder={password}
+										type='password'
+										autocomplete='off'
+									/>
 								</Form.Field>
 								{errors?.password.foundError && (
 									<Message negative>
